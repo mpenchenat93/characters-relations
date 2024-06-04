@@ -1,0 +1,27 @@
+<div class="card">
+  <p-menubar [model]="items">
+    <ng-template pTemplate="start">
+      <div
+        style="
+          display: flex;
+          align-items: center;
+          padding-right: 30px;
+          padding-left: 30px;
+          gap: 10px;
+        "
+      >
+        <img
+          src="assets/ico/ico-180.png"
+          alt="logo"
+          style="height: 50px; margin-right: 10px"
+        />
+        <h3>Dictionnaire des personnages</h3>
+      </div>
+    </ng-template>
+    <ng-template pTemplate="end" *ngIf="screenWidth > 1310">
+      <div style="padding-right: 30px">
+        <h3>De l'Evangile selon <i>Maria Valtorta</i></h3>
+      </div>
+    </ng-template>
+  </p-menubar>
+</div>

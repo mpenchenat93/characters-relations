@@ -1,0 +1,47 @@
+<div style="float: right; padding: 15px">
+  <div style="display: flex; flex-direction: column; align-items: end">
+    <p-button
+      *ngIf="character.relations.length"
+      (onClick)="detail(character.id)"
+      label="Fiche personnage"
+      size="small"
+      text
+    />
+    <p-button
+      *ngIf="character.link"
+      label="Article wiki"
+      (click)="openWikiArticle(character.link)"
+      icon="pi pi-external-link"
+      iconPos="right"
+      size="small"
+      text
+    />
+  </div>
+</div>
+
+<div *ngIf="character.relations.length">
+  <p>Liste des liens :</p>
+  <table style="margin-bottom: 20px; margin-left: 50px">
+    <tr *ngFor="let rel of character.relations" [innerHtml]="rel"></tr>
+  </table>
+</div>
+
+<p
+  *ngIf="character.chapterPresent.length || character.chapterRef.length"
+  style="line-height: 1.4"
+>
+  <span *ngIf="character.chapterPresent.length">
+    Présent<span *ngIf="character.gender === 'Femme'">e</span> dans EMV
+    {{ character.strChapterPresent }}.<br />
+  </span>
+  <span *ngIf="character.chapterRef.length">
+    Nommé<span *ngIf="character.gender === 'Femme'">e</span> dans EMV
+    {{ character.strChapterRef }}.
+  </span>
+</p>
+
+<p *ngIf="character.isNotPresent">Seulement cité.</p>
+<div *ngIf="character.description">
+  <p>Description :</p>
+  <markdown [data]="character.description"></markdown>
+</div>

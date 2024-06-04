@@ -1,0 +1,81 @@
+<div class="approot">
+  <div class="header">
+    <app-header></app-header>
+  </div>
+
+  <div class="main">
+    <div style="max-width: 900px; margin: 0 auto">
+      <p-card header="Contactez-nous">
+        <p>
+          Pour toute question ou demande d'information, vous pouvez nous
+          contacter.
+        </p>
+
+        <p>
+          Si vous remarquez une erreur dans nos données ou un bug applicatif,
+          n'hésitez pas à nous en faire part.
+        </p>
+
+        <div
+          *ngIf="validated && isMobile"
+          style="text-align: center; width: 100%"
+        >
+          <small>{{ email }}</small>
+        </div>
+        <div style="padding: 20px">
+          <div
+            *ngIf="validated && !isMobile"
+            style="text-align: center; width: 100%"
+          >
+            {{ email }}
+          </div>
+          <p *ngIf="!validated" style="padding-bottom: 15px">
+            Pour limiter les spams, merci de répondre à la question de sécurité
+            suivante. Une fois validée, l'adresse email pour nous contacter sera
+            affichée sur le site.
+          </p>
+
+          <form
+            *ngIf="!validated"
+            (ngSubmit)="showEmail()"
+            #myForm="ngForm"
+            style="display: flex; flex-direction: column; gap: 10px"
+          >
+            <label for="color">Quel est la couleur du ciel ?</label>
+            <input
+              id="color"
+              name="color"
+              style="width: 100%; max-width: 300px"
+              [class.ng-invalid]="required || wrongResponse"
+              [class.ng-dirty]="required || wrongResponse"
+              [class.ng-invalid-focus]="required || wrongResponse"
+              type="text"
+              pInputText
+              [(ngModel)]="color"
+              placeholder="Couleur"
+            />
+            <small id="required-help" style="color: #e24c4c" *ngIf="required">
+              Champ obligatoire, veuillez le remplir.
+            </small>
+            <small id="wrong-help" style="color: #e24c4c" *ngIf="wrongResponse">
+              Réponse incorrecte, veuillez réessayer.
+            </small>
+
+            <div>
+              <button
+                pButton
+                label="Valider"
+                type="submit"
+                size="small"
+              ></button>
+            </div>
+          </form>
+        </div>
+      </p-card>
+    </div>
+  </div>
+
+  <div class="footer">
+    <app-footer></app-footer>
+  </div>
+</div>

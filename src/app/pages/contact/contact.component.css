@@ -1,0 +1,35 @@
+.approot {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  grid-template-columns: 1fr;
+  grid-template-areas:
+    "header"
+    "main"
+    "footer";
+}
+
+.header {
+  grid-area: header;
+}
+
+.main {
+  grid-area: main;
+  padding: 20px;
+}
+
+.footer {
+  grid-area: footer;
+}
+
+.ng-invalid:focus {
+  box-shadow: 0 0 5px #e24c4c !important;
+  border-color: #e24c4c !important;
+}
+
+.ng-invalid-focus {
+  box-shadow: 0 0 5px #e24c4c !important;
+  border-color: #e24c4c !important;
+}

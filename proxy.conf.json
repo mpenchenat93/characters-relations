@@ -1,0 +1,10 @@
+{
+  "/api": {
+    "target": "https://baserow.indexvaltorta.fr",
+    "secure": true,
+    "changeOrigin": true,
+    "pathRewrite": {
+      "^/api": "/api"
+    }
+  }
+}

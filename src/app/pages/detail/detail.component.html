@@ -1,0 +1,31 @@
+<div class="approot3">
+  <div class="header">
+    <app-header></app-header>
+  </div>
+
+  <div class="graph">
+    <div class="graph2">
+      <p-progressSpinner ariaLabel="loading" *ngIf="loaded === false" />
+      <p-panel header="Graphe en réseau" *ngIf="character">
+        <app-graph-network
+          [characters]="characters"
+          [relations]="relations"
+          [characterId]="character.id"
+          (characterIdOut)="onCharacterIdOut($event)"
+        ></app-graph-network>
+      </p-panel>
+    </div>
+  </div>
+
+  <div class="detail">
+    <div class="detail-content">
+      <p-panel header="Fiche Personnage" *ngIf="character">
+        <app-character-sheet [character]="character"></app-character-sheet>
+      </p-panel>
+    </div>
+  </div>
+
+  <div class="footer">
+    <app-footer></app-footer>
+  </div>
+</div>

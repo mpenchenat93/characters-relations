@@ -1,0 +1,207 @@
+// On sélectionne un noeud
+// On récupère les noeuds connectés
+// On cache les noeuds non connectés
+// On garde les arêtes visibles
+// On ajuste le graphique
+private updateGraph2(selectedNodeId: number): void {
+  const connectedNodeIds = new Set<number>();
+  const visited = new Map<number, number>();
+  const queue = [{ nodeId: selectedNodeId, distance: 0 }];
+  while (queue.length > 0) {
+    const { nodeId, distance } = queue.shift()!;
+    if (distance > this.rangeValue) continue;
+    visited.set(nodeId, distance);
+    connectedNodeIds.add(nodeId);
+    const connectedEdges = this.edges.get({
+      filter: (item: any) => item.from === nodeId || item.to === nodeId,
+    });
+    connectedEdges.forEach((edge: any) => {
+      const neighborNodeId = edge.from === nodeId ? edge.to : edge.from;
+      if (
+        !visited.has(neighborNodeId) ||
+        visited.get(neighborNodeId)! > distance + 1
+      ) {
+        queue.push({ nodeId: neighborNodeId, distance: distance + 1 });
+      }
+    });
+  }
+  // Hide or show nodes based on their connectivity
+  this.nodes.forEach((node: any) => {
+    if (!connectedNodeIds.has(node.id)) {
+      this.nodes.update({ id: node.id, hidden: true });
+    } else {
+      this.nodes.update({ id: node.id, hidden: false });
+    }
+  });
+  // Keep all edges visible
+  this.edges.forEach((edge: any) => {
+    this.edges.update({ id: edge.id, hidden: false });
+  });
+  this.fitNetwork();
+}
+
+
+  onSelectChange(): void {
+    if (this.selectedItem === null) {
+      this.network.selectNodes([]);
+      this.onDeselectNode();
+    } else if (this.network) {
+      this.network.selectNodes([this.selectedItem.id]);
+      this.onSelectNode({ nodes: [this.selectedItem.id] });
+    }
+  }
+
+
+  private initializeNetwork(): void {
+    const data = {
+      nodes: this.nodes,
+      edges: this.edges,
+    };
+
+    const options = {
+      interaction: {
+        dragNodes: true,
+        selectable: true,
+      },
+      manipulation: {
+        enabled: false,
+      },
+    };
+
+    if (this.visNetworkContainer) {
+      this.network = new vis.Network(
+        this.visNetworkContainer.nativeElement,
+        data,
+        options
+      );
+
+      var isNodeBeingDragged = false;
+
+      const nw = this.network;
+
+      // Ajoutez un écouteur pour l'événement 'stabilizationProgress'
+      this.network.on('stabilizationProgress', function (params: any) {
+        const progress = Math.round((params.iterations / params.total) * 100);
+        console.log('Progression : ' + progress + '%');
+      });
+
+      // Ajoutez un écouteur pour l'événement 'stabilizationIterationsDone'
+      this.network.on('stabilizationIterationsDone', function () {
+        console.log('Le graphique est chargé et stabilisé');
+        // console.timeEnd('Chargement du graphique');
+      });
+
+      // Sauvegarder la sélection avant le déplacement
+      nw.on('beforeDrawing', () => {
+        if (!isNodeBeingDragged) {
+          this.savedSelection = {
+            nodes: this.network.getSelectedNodes(),
+            edges: this.network.getSelectedEdges(),
+          };
+        }
+      });
+
+      // Désactiver la sélection pendant le déplacement
+      nw.on('dragStart', (params: any) => {
+        if (params.nodes.length > 0) {
+          isNodeBeingDragged = true;
+          nw.setOptions({
+            interaction: {
+              selectable: false,
+            },
+          });
+        }
+      });
+
+      nw.on('dragging', (params: any) => {
+        if (isNodeBeingDragged) {
+          nw.unselectAll();
+        }
+      });
+
+      // Réactiver la sélection après le déplacement
+      nw.on('dragEnd', async (params: any) => {
+        if (isNodeBeingDragged) {
+          isNodeBeingDragged = false;
+          nw.setOptions({
+            interaction: {
+              selectable: true,
+            },
+          });
+          nw.selectEdges(this.savedSelection.edges);
+          nw.selectNodes(this.savedSelection.nodes);
+        }
+      });
+
+      nw.on('selectNode', (params: any) => {
+        // this.selectedItem = this.items.find(
+        //   (item: any) => item.id === params.nodes[0]
+        // );
+
+        this.onSelectNode(params);
+      });
+
+      nw.on('deselectNode', (params: any) => {
+        if (params.edges.length > 0 && params.nodes.length === 0) {
+          nw.selectEdges(this.savedSelection.edges);
+          nw.selectNodes(this.savedSelection.nodes);
+        } else {
+          this.selectedItem = null;
+          this.onDeselectNode();
+        }
+      });
+
+      // Empêcher la sélection des arêtes
+      nw.on('selectEdge', (params: any) => {
+        if (params.edges.length > 0 && params.nodes.length === 0) {
+          // Restaurer la sélection précédente et empêcher la sélection des arêtes
+          nw.selectEdges(this.savedSelection.edges);
+          nw.selectNodes(this.savedSelection.nodes);
+        }
+      });
+    }
+  }
+
+
+  private resetGraph(): void {
+    this.nodes.forEach((node: any) => {
+      this.nodes.update({ id: node.id, hidden: false });
+    });
+
+    this.edges.forEach((edge: any) => {
+      this.edges.update({ id: edge.id, hidden: false });
+    });
+
+    if (this.oldSelectedNodeIds.length && !this.selectedNodeIds.length) {
+      this.fitNetwork();
+    }
+  }
+
+  private fitNetwork(): void {
+    // Autoscale the network to fit all nodes and edges
+    this.network.fit({
+      animation: {
+        duration: 500,
+        easingFunction: 'easeInOutQuad',
+      },
+    });
+  }
+
+  private onSelectNode(params: any): void {
+    this.oldSelectedNodeIds = this.selectedNodeIds;
+    this.selectedNodeIds = this.network.getSelectedNodes();
+    // this.selectedNode = this.items.find(
+    //   (item: any) => item.id === params.nodes[0]
+    // );
+    // this.updateGraph(params.nodes[0]);
+    this.updateGraph();
+  }
+
+  private onDeselectNode(): void {
+    this.oldSelectedNodeIds = this.selectedNodeIds;
+    this.selectedNodeIds = this.network.getSelectedNodes();
+    // this.selectedNode = this.items.find((item: any) =>
+    //   this.selectedNodeIds.includes(item.id)
+    // );
+    this.resetGraph();
+  }

@@ -1,0 +1,187 @@
+<div class="approot3">
+  <div class="header">
+    <app-header></app-header>
+  </div>
+
+  <div class="main" style="margin: 0 auto; max-width: 1100px; margin-top: 20px">
+    <div style="width: 100%; margin-bottom: 30px">
+      <p-card>
+        <p-table
+          #dt
+          dataKey="id"
+          paginatorPosition="both"
+          currentPageReportTemplate="{first} - {last} sur {totalRecords}"
+          (sortFunction)="customSort($event)"
+          (onFilter)="onTableFilter($event)"
+          [rowsPerPageOptions]="[5, 10, 20]"
+          [paginator]="true"
+          [showPageLinks]="showPageLinks"
+          [showFirstLastIcon]="showFirstLastIcon"
+          [showCurrentPageReport]="showCurrentPageReport"
+          [showJumpToPageDropdown]="false"
+          [totalRecords]="nbElements"
+          [rows]="10"
+          [value]="characters"
+          [styleClass]="'p-datatable-sm'"
+          [expandedRowKeys]="expandedRows"
+          [customSort]="true"
+          [globalFilterFields]="[
+            'id',
+            'label',
+            'surnames',
+            'attributes',
+            'place',
+            'gender',
+            'relations',
+            'description'
+          ]"
+        >
+          <ng-template pTemplate="caption">
+            <div *ngIf="topMobile">
+              <div style="display: flex; flex-direction: column">
+                <div
+                  style="
+                    display: flex;
+                    gap: 10px;
+                    align-items: center;
+                    justify-content: space-between;
+                  "
+                >
+                  <p-button
+                    label="Tout réduire"
+                    size="small"
+                    text
+                    (onClick)="collapseAll()"
+                  />
+                  <div
+                    *ngIf="characters.length"
+                    style="font-weight: 400; padding-right: 10px"
+                  >
+                    {{ nbElements }} personnages
+                  </div>
+                </div>
+                <!-- GLOBAL SEARCH INPUT-->
+                <p-iconField iconPosition="left" class="ml-auto">
+                  <p-inputIcon>
+                    <i class="pi pi-search"></i>
+                  </p-inputIcon>
+                  <input
+                    class="w100"
+                    pInputText
+                    type="text"
+                    name="globalFilter"
+                    (input)="applyGlobalFilter($event)"
+                    placeholder="Rechercher globalement"
+                  />
+                </p-iconField>
+              </div>
+            </div>
+            <div *ngIf="!topMobile">
+              <div style="display: flex; justify-content: space-between">
+                <div style="display: flex; gap: 10px; align-items: center">
+                  <p-button
+                    label="Tout réduire"
+                    size="small"
+                    text
+                    (onClick)="collapseAll()"
+                  />
+                  <div *ngIf="characters.length" style="font-weight: 400">
+                    {{ nbElements }} personnages
+                  </div>
+                </div>
+                <!-- GLOBAL SEARCH INPUT-->
+                <p-iconField iconPosition="left" class="ml-auto">
+                  <p-inputIcon>
+                    <i class="pi pi-search"></i>
+                  </p-inputIcon>
+                  <input
+                    pInputText
+                    type="text"
+                    name="globalFilter"
+                    (input)="applyGlobalFilter($event)"
+                    placeholder="Rechercher globalement"
+                  />
+                </p-iconField>
+              </div>
+            </div>
+          </ng-template>
+          <ng-template pTemplate="header">
+            <tr>
+              <th style="width: 5%"></th>
+              <th pSortableColumn="id" style="min-width: 60px">
+                Id <p-sortIcon field="id" />
+              </th>
+              <th pSortableColumn="label" style="min-width: 110px">
+                Prénom <p-sortIcon field="label" />
+              </th>
+              <th pSortableColumn="strPlace" style="min-width: 80px">
+                Lieu <p-sortIcon field="strPlace" />
+              </th>
+              <th pSortableColumn="strSurnames" style="min-width: 115px">
+                Surnoms <p-sortIcon field="strSurnames" />
+              </th>
+              <th pSortableColumn="strAttributes" style="min-width: 115px">
+                Attributs <p-sortIcon field="strAttributes" />
+              </th>
+              <th pSortableColumn="gender" style="min-width: 100px">
+                Genre <p-sortIcon field="gender" />
+              </th>
+            </tr>
+          </ng-template>
+          <ng-template pTemplate="body" let-node let-expanded="expanded">
+            <tr>
+              <td>
+                <div *ngIf="!hasDetail(node)" style="padding: 24px"></div>
+                <p-button
+                  *ngIf="hasDetail(node)"
+                  type="button"
+                  pRipple
+                  [pRowToggler]="node"
+                  [text]="true"
+                  [rounded]="true"
+                  [plain]="true"
+                  [icon]="
+                    expanded ? 'pi pi-chevron-down' : 'pi pi-chevron-right'
+                  "
+                ></p-button>
+              </td>
+              <td>{{ node.id }}</td>
+              <td>{{ node.label }}</td>
+              <td>{{ split(node.place) }}</td>
+              <td>{{ split(node.surnames) }}</td>
+              <td>{{ split(node.attributes) }}</td>
+              <td><span [innerHTML]="getGenderIcon(node.gender)"></span></td>
+            </tr>
+          </ng-template>
+          <ng-template pTemplate="rowexpansion" let-node>
+            <tr>
+              <td *ngIf="!topMobile"></td>
+              <td [attr.colspan]="getColspan()">
+                <app-table-detail [character]="node"></app-table-detail>
+              </td>
+            </tr>
+          </ng-template>
+          <ng-template pTemplate="emptymessage">
+            <tr>
+              <td colspan="7">
+                <div
+                  style="display: flex; justify-content: center; height: 300px"
+                >
+                  <p *ngIf="loaded">Pas de personnage trouvé.</p>
+                  <p *ngIf="!loaded">
+                    En cours de chargement.
+                    <i class="pi pi-spin pi-spinner"></i>
+                  </p>
+                </div>
+              </td>
+            </tr>
+          </ng-template>
+        </p-table>
+      </p-card>
+    </div>
+  </div>
+
+  <div class="footer">
+    <app-footer></app-footer>
+  </div>
+</div>

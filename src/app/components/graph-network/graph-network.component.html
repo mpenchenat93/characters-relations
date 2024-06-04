@@ -1,0 +1,135 @@
+<div
+  style="display: flex; justify-content: space-between; align-items: center"
+  *ngIf="innerWidth >= 920"
+>
+  <div style="display: flex; gap: 20px; align-items: center">
+    <label for="rangeField" class="form-label">
+      Distance maximale avec le noeud sélectionné et un autre :
+      {{ rangeValue }}
+    </label>
+    <input
+      [(ngModel)]="rangeValue"
+      (change)="onRangeChange()"
+      type="range"
+      min="1"
+      max="5"
+      class="form-range"
+      id="rangeField"
+    />
+  </div>
+  <div style="display: flex; justify-content: end; gap: 5px">
+    <p-button
+      size="small"
+      pRipple
+      label="Verrouiller"
+      [rounded]="true"
+      [outlined]="true"
+      severity="primary"
+      *ngIf="!blockedPanel && innerWidth < 1250"
+      (click)="blockedPanel = true"
+    />
+    <p-button
+      size="small"
+      pRipple
+      label="Déverrouiller"
+      [rounded]="true"
+      [outlined]="true"
+      severity="primary"
+      *ngIf="blockedPanel && innerWidth < 1250"
+      (click)="blockedPanel = false"
+    />
+    <p-button
+      label="Guide"
+      [rounded]="true"
+      [outlined]="true"
+      severity="primary"
+      (click)="toggleSidebar()"
+      size="small"
+    />
+  </div>
+</div>
+
+<div
+  *ngIf="innerWidth < 920"
+  style="display: flex; flex-direction: column; gap: 10px"
+>
+  <label for="rangeField" class="form-label">
+    Distance maximale avec le noeud sélectionné et un autre :
+    {{ rangeValue }}
+  </label>
+  <input
+    [(ngModel)]="rangeValue"
+    (change)="onRangeChange()"
+    type="range"
+    min="1"
+    max="5"
+    class="form-range"
+    id="rangeField"
+  />
+  <div style="display: flex; gap: 5px; justify-content: end">
+    <p-button
+      size="small"
+      pRipple
+      label="Verrouiller"
+      [rounded]="true"
+      [outlined]="true"
+      severity="primary"
+      *ngIf="!blockedPanel"
+      (click)="blockedPanel = true"
+    />
+    <p-button
+      size="small"
+      pRipple
+      label="Déverrouiller"
+      [rounded]="true"
+      [outlined]="true"
+      severity="primary"
+      *ngIf="blockedPanel"
+      (click)="blockedPanel = false"
+    />
+    <p-button
+      label="Guide"
+      [rounded]="true"
+      [outlined]="true"
+      severity="primary"
+      (click)="toggleSidebar()"
+      size="small"
+    />
+  </div>
+</div>
+
+<p-blockUI *ngIf="innerWidth < 1250" [target]="pnl" [blocked]="blockedPanel">
+  <i class="pi pi-lock" style="font-size: 3rem"></i>
+</p-blockUI>
+<div style="padding-top: 10px">
+  <p-card #pnl class="custom-card">
+    <div #visNetwork class="graph3"></div>
+  </p-card>
+</div>
+
+<p-sidebar [(visible)]="sidebarVisible" (onHide)="toggleBodyScroll(false)">
+  <h3>Guide</h3>
+  <small
+    >Un noeud représente un personnage.<br />
+    Une arrête représente une relation entre deux personnages.</small
+  >
+  <p>Vous pouvez :</p>
+  <p>
+    1. Déplacer un nœud. Vous pourrez ainsi réorganiser le graphe, ce qui pourra
+    vous aider en termes de lisibilité. Par exemple, si un nom de relation est
+    caché par un nœud.
+  </p>
+  <p>
+    2. Vous pouvez déplacer le curseur représentant la distance maximale entre
+    le nœud sélectionné et un autre. Selon votre choix, vous aurez plus ou moins
+    de nœuds et d'arêtes affichés.
+  </p>
+  <p>
+    3. En cliquant sur un autre nœud, le graphe et la fiche du personnage se
+    mettront à jour.
+  </p>
+  <p>
+    4. Enfin, si vous voulez sélectionner un personnage que vous ne voyez pas
+    sur le graphe, vous devez retourner à la page d'accueil pour le retrouver.
+  </p>
+</p-sidebar>

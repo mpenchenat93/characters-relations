@@ -1,0 +1,4323 @@
+{
+  "count": 169,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 372,
+      "order": "1.00000000000000000000",
+      "Nom": "Abraham",
+      "Appellations": "",
+      "Genre": {
+        "id": 2786,
+        "value": "Homme",
+        "color": "light-brown"
+      },
+      "Attributs": [],
+      "Lieu": [],
+      "Description": "",
+      "Non présent": false,
+      "Lien": null,
+      "ChapitreRef": [],
+      "ChapitrePresent": []
+    },
+    {
+      "id": 373,
+      "order": "2.00000000000000000000",
+      "Nom": "Abraham",
+      "Appellations": "",
+      "Genre": {
+        "id": 2786,
+        "value": "Homme",
+        "color": "light-brown"
+      },
+      "Attributs": [
+        {
+          "id": 2803,
+          "value": "Chef de Synagogue",
+          "color": "dark-yellow"
+        }
+      ],
+      "Lieu": [
+        {
+          "id": 52,
+          "value": "Engaddi"
+        }
+      ],
+      "Description": "",
+      "Non présent": false,
+      "Lien": "https://www.maria-valtorta.org/Personnages/AbrahamEngaddi.htm",
+      "ChapitreRef": [],
+      "ChapitrePresent": []
+    },
+    {
+      "id": 374,
+      "order": "3.00000000000000000000",
+      "Nom": "Aglaé",
+      "Appellations": "",
+      "Genre": {
+        "id": 2787,
+        "value": "Femme",
+        "color": "light-red"
+      },
+      "Attributs": [
+        {
+          "id": 2811,
+          "value": "Femme ermite",
+          "color": "cyan"
+        },
+        {
+          "id": 2789,
+          "value": "Disciple",
+          "color": "darker-pink"
+        }
+      ],
+      "Lieu": [],
+      "Description": "Ancienne courtisane",
+      "Non présent": false,
+      "Lien": "https://www.maria-valtorta.org/Personnages/Aglae.htm",
+      "ChapitreRef": [],
+      "ChapitrePresent": []
+    },
+    {
+      "id": 375,
+      "order": "4.00000000000000000000",
+      "Nom": "Albula Domitilla",
+      "Appellations": "",
+      "Genre": {
+        "id": 2787,
+        "value": "Femme",
+        "color": "light-red"
+      },
+      "Attributs": [
+        {
+          "id": 2798,
+          "value": "Romain",
+          "color": "blue"
+        },
+        {
+          "id": 2800,
+          "value": "Affranchie",
+          "color": "darker-red"
+        }
+      ],
+      "Lieu": [],
+      "Description": "",
+      "Non présent": false,
+      "Lien": "https://www.maria-valtorta.org/Personnages/Albula.htm",
+      "ChapitreRef": [],
+      "ChapitrePresent": []
+    },
+    {
+      "id": 376,
+      "order": "5.00000000000000000000",
+      "Nom": "Alphée",
+      "Appellations": "",
+      "Genre": {
+        "id": 2786,
+        "value": "Homme",
+        "color": "light-brown"
+      },
+      "Attributs": [],
+      "Lieu": [],
+      "Description": "",
+      "Non présent": false,
+      "Lien": "https://www.maria-valtorta.org/Personnages/AlpheeJacob.htm",
+      "ChapitreRef": [],
+      "ChapitrePresent": []
+    },
+    {
+      "id": 377,
+      "order": "6.00000000000000000000",
+      "Nom": "Alphée",
+      "Appellations": "",
+      "Genre": {
+        "id": 2786,
+        "value": "Homme",
+        "color": "light-brown"
+      },
+      "Attributs": [],
+      "Lieu": [
+        {
+          "id": 44,
+          "value": "Antigonéa"
+        }
+      ],
+      "Description": "",
+      "Non présent": false,
+      "Lien": "https://www.maria-valtorta.org/Personnages/PersonnagesRencontre02.htm#Syrie",
+      "ChapitreRef": [],
+      "ChapitrePresent": []
+    },
+    {
+      "id": 378,
+      "order": "7.00000000000000000000",
+      "Nom": "Alphée",
+      "Appellations": "",
+      "Genre": {
+        "id": 2786,
+        "value": "Homme",
+        "color": "light-brown"
+      },
+      "Attributs": [
+        {
+          "id": 2794,
+          "value": "Prosélyte",
+          "color": "darker-cyan"
+        }
+      ],
+      "Lieu": [
+        {
+          "id": 43,
+          "value": "Alexandroscène de Phénicie"
+        }
+      ],
+      "Description": "",
+      "Non présent": false,
+      "Lien": "",
+      "ChapitreRef": [],
+      "ChapitrePresent": []
+    },
+    {
+      "id": 379,
+      "order": "8.00000000000000000000",
+      "Nom": "Alphée",
+      "Appellations": "",
+      "Genre": {
+        "id": 2786,
+        "value": "Homme",
+        "color": "light-brown"
+      },
+      "Attributs": [],
+      "Lieu": [],
+      "Description": "8 ans",
+      "Non présent": false,
+      "Lien": "https://www.maria-valtorta.org/Personnages/AlpheeSimon.htm",
+      "ChapitreRef": [],
+      "ChapitrePresent": []
+    },
+    {
+      "id": 380,
+      "order": "9.00000000000000000000",
+      "Nom": "Ananias",
+      "Appellations": "Ananos",
+      "Genre": {
+        "id": 2786,
+        "value": "Homme",
+        "color": "light-brown"
+      },
+      "Attributs": [
+        {
+          "id": 2807,
+          "value": "Sanhédriste",
+          "color": "deep-dark-green"
+        }
+      ],
+      "Lieu": [],
+      "Description": "",
+      "Non présent": false,
+      "Lien": "https://www.maria-valtorta.org/Personnages/AnnaAnna.htm",
+      "ChapitreRef": [],
+      "ChapitrePresent": []
+    },
+    {
+      "id": 381,
+      "order": "10.00000000000000000000",
+      "Nom": "Anastasica",
+      "Appellations": "Rose de Jéricho",
+      "Genre": {
+        "id": 2787,
+        "value": "Femme",
+        "color": "light-red"
+      },
+      "Attributs": [
+        {
+          "id": 2789,
+          "value": "Disciple",
+          "color": "darker-pink"
+        }
+      ],
+      "Lieu": [
+        {
+          "id": 39,
+          "value": "Jéricho"
+        }
+      ],
+      "Description": "",
+      "Non présent": false,
+      "Lien": "https://www.maria-valtorta.org/Personnages/Anastasica.htm",
+      "ChapitreRef": [],
+      "ChapitrePresent": []
+    },
+    {
+      "id": 382,
+      "order": "11.00000000000000000000",
+      "Nom": "André",
+      "Appellations": "",
+      "Genre": {
+        "id": 2786,
+        "value": "Homme",
+        "color": "light-brown"
+      },
+      "Attributs": [
+        {
+          "id": 2790,
+          "value": "Apôtre",
+          "color": "green"
+        }
+      ],
+      "Lieu": [],
+      "Description": "",
+      "Non présent": false,
+      "Lien": "https://www.maria-valtorta.org/Personnages/Andre.htm",
+      "ChapitreRef": [],
+      "ChapitrePresent": []
+    },
+    {
+      "id": 383,
+      "order": "12.00000000000000000000",
+      "Nom": "Anna",
+      "Appellations": "",
+      "Genre": {
+        "id": 2786,
+        "value": "Homme",
+        "color": "light-brown"
+      },
+      "Attributs": [
+        {
+          "id": 2804,
+          "value": "Scribe",
+          "color": "dark-blue"
+        }
+      ],
+      "Lieu": [],
+      "Description": "",
+      "Non présent": false,
+      "Lien": "https://www.maria-valtorta.org/Personnages/AnnaNahum.htm",
+      "ChapitreRef": [],
+      "ChapitrePresent": []
+    },
+    {
+      "id": 384,
+      "order": "13.00000000000000000000",
+      "Nom": "Annalia",
+      "Appellations": "Annalea",
+      "Genre": {
+        "id": 2787,
+        "value": "Femme",
+        "color": "light-red"
+      },
+      "Attributs": [
+        {
+          "id": 2810,
+          "value": "Vierge consacrée",
+          "color": "dark-cyan"
+        },
+        {
+          "id": 2789,
+          "value": "Disciple",
+          "color": "darker-pink"
+        }
+      ],
+      "Lieu": [],
+      "Description": "Première des vierges consacrées",
+      "Non présent": false,
+      "Lien": "https://www.maria-valtorta.org/Personnages/Annalia.htm",
+      "ChapitreRef": [],
+      "ChapitrePresent": []
+    },
+    {
+      "id": 385,
+      "order": "14.00000000000000000000",
+      "Nom": "Anne",
+      "Appellations": "",
+      "Genre": {
+        "id": 2787,
+        "value": "Femme",
+        "color": "light-red"
+      },
+      "Attributs": [
+        {
+          "id": 2789,
+          "value": "Disciple",
+          "color": "darker-pink"
+        }
+      ],
+      "Lieu": [
+        {
+          "id": 40,
+          "value": "Cana"
+        }
+      ],
+      "Description": "",
+      "Non présent": false,
+      "Lien": "https://www.maria-valtorta.org/Personnages/AnneBarthelemy.htm",
+      "ChapitreRef": [],
+      "ChapitrePresent": []
+    },
+    {
+      "id": 386,
+      "order": "15.00000000000000000000",
+      "Nom": "Anne",
+      "Appellations": "",
+      "Genre": {
+        "id": 2787,
+        "value": "Femme",
+        "color": "light-red"
+      },
+      "Attributs": [
+        {
+          "id": 2789,
+          "value": "Disciple",
+          "color": "darker-pink"
+        }
+      ],
+      "Lieu": [
+        {
+          "id": 59,
+          "value": "Mérom"
+        }
+      ],
+      "Description": "Couple disciples vignerons",
+      "Non présent": false,
+      "Lien": "https://www.maria-valtorta.org/Personnages/AnneMeron.htm",
+      "ChapitreRef": [],
+      "ChapitrePresent": []
+    },
+    {
+      "id": 387,
+      "order": "16.00000000000000000000",
+      "Nom": "Anne",
+      "Appellations": "",
+      "Genre": {
+        "id": 2787,
+        "value": "Femme",
+        "color": "light-red"
+      },
+      "Attributs": [],
+      "Lieu": [],
+      "Description": "",
+      "Non présent": false,
+      "Lien": null,
+      "ChapitreRef": [],
+      "ChapitrePresent": []
+    },
+    {
+      "id": 388,
+      "order": "17.00000000000000000000",
+      "Nom": "Anne",
+      "Appellations": "",
+      "Genre": {
+        "id": 2787,
+        "value": "Femme",
+        "color": "light-red"
+      },
+      "Attributs": [],
+      "Lieu": [
+        {
+          "id": 44,
+          "value": "Antigonéa"
+        }
+      ],
+      "Description": "",
+      "Non présent": false,
+      "Lien": "https://www.maria-valtorta.org/Personnages/AnnePtolmai.htm",
+      "ChapitreRef": [],
+      "ChapitrePresent": []
+    },
+    {
+      "id": 389,
+      "order": "18.00000000000000000000",
+      "Nom": "Anne",
+      "Appellations": "",
+      "Genre": {
+        "id": 2787,
+        "value": "Femme",
+        "color": "light-red"
+      },
+      "Attributs": [],
+      "Lieu": [],
+      "Description": "",
+      "Non présent": false,
+      "Lien": "https://www.maria-valtorta.org/Personnages/AnneAaron.htm",
+      "ChapitreRef": [],
+      "ChapitrePresent": []
+    },
+    {
+      "id": 390,
+      "order": "19.00000000000000000000",
+      "Nom": "Anne",
+      "Appellations": "",
+      "Genre": {
+        "id": 2787,
+        "value": "Femme",
+        "color": "light-red"
+      },
+      "Attributs": [],
+      "Lieu": [
+        {
+          "id": 70,
+          "value": "Kériot"
+        }
+      ],
+      "Description": "",
+      "Non présent": false,
+      "Lien": "https://www.maria-valtorta.org/Personnages/AnneKeriot.htm",
+      "ChapitreRef": [],
+      "ChapitrePresent": []
+    },
+    {
+      "id": 391,
+      "order": "20.00000000000000000000",
+      "Nom": "Archélaüs",
+      "Appellations": "Onkelos",
+      "Genre": {
+        "id": 2786,
+        "value": "Homme",
+        "color": "light-brown"
+      },
+      "Attributs": [
+        {
+          "id": 2804,
+          "value": "Scribe",
+          "color": "dark-blue"
+        }
+      ],
+      "Lieu": [],
+      "Description": "",
+      "Non présent": false,
+      "Lien": "https://www.maria-valtorta.org/Personnages/ArchelausScribe.htm",
+      "ChapitreRef": [],
+      "ChapitrePresent": []
+    },
+    {
+      "id": 392,
+      "order": "21.00000000000000000000",
+      "Nom": "Auréa",
+      "Appellations": "",
+      "Genre": {
+        "id": 2787,
+        "value": "Femme",
+        "color": "light-red"
+      },
+      "Attributs": [
+        {
+          "id": 2813,
+          "value": "Esclave",
+          "color": "light-pink"
+        },
+        {
+          "id": 2800,
+          "value": "Affranchie",
+          "color": "darker-red"
+        }
+      ],
+      "Lieu": [],
+      "Description": "La jeune esclave gauloise affranchie à la prière de Jésus",
+      "Non présent": false,
+      "Lien": "https://www.maria-valtorta.org/Personnages/Aurea.htm",
+      "ChapitreRef": [],
+      "ChapitrePresent": []
+    },
+    {
+      "id": 393,
+      "order": "22.00000000000000000000",
+      "Nom": "Barthélémy",
+      "Appellations": "Nathanaël",
+      "Genre": {
+        "id": 2786,
+        "value": "Homme",
+        "color": "light-brown"
+      },
+      "Attributs": [
+        {
+          "id": 2790,
+          "value": "Apôtre",
+          "color": "green"
+        }
+      ],
+      "Lieu": [],
+      "Description": "",
+      "Non présent": false,
+      "Lien": "https://www.maria-valtorta.org/Personnages/Nathanael.htm",
+      "ChapitreRef": [],
+      "ChapitrePresent": []
+    },
+    {
+      "id": 394,
+      "order": "23.00000000000000000000",
+      "Nom": "Benjamin",
+      "Appellations": "",
+      "Genre": {
+        "id": 2786,
+        "value": "Homme",
+        "color": "light-brown"
+      },
+      "Attributs": [
+        {
+          "id": 2814,
+          "value": "Berger",
+          "color": "yellow"
+        },
+        {
+          "id": 2789,
+          "value": "Disciple",
+          "color": "darker-pink"
+        }
+      ],
+      "Lieu": [
+        {
+          "id": 64,
+          "value": "Liban"
+        }
+      ],
+      "Description": "",
+      "Non présent": false,
+      "Lien": "https://www.maria-valtorta.org/Personnages/BenjaminBethleem.htm",
+      "ChapitreRef": [],
+      "ChapitrePresent": []
+    },
+    {
+      "id": 395,
+      "order": "24.00000000000000000000",
+      "Nom": "Caïphe",
+      "Appellations": "",
+      "Genre": {
+        "id": 2786,
+        "value": "Homme",
+        "color": "light-brown"
+      },
+      "Attributs": [
+        {
+          "id": 2806,
+          "value": "Grand Prêtre",
+          "color": "dark-brown"
+        }
+      ],
+      "Lieu": [],
+      "Description": "",
+      "Non présent": false,
+      "Lien": "https://www.maria-valtorta.org/Personnages/Caiphe.htm",
+      "ChapitreRef": [],
+      "ChapitrePresent": []
+    },
+    {
+      "id": 396,
+      "order": "25.00000000000000000000",
+      "Nom": "César",
+      "Appellations": "",
+      "Genre": {
+        "id": 2786,
+        "value": "Homme",
+        "color": "light-brown"
+      },
+      "Attributs": [
+        {
+          "id": 2798,
+          "value": "Romain",
+          "color": "blue"
+        }
+      ],
+      "Lieu": [],
+      "Description": "Empereur",
+      "Non présent": true,
+      "Lien": null,
+      "ChapitreRef": [],
+      "ChapitrePresent": []
+    },
+    {
+      "id": 397,
+      "order": "26.00000000000000000000",
+      "Nom": "Chouza",
+      "Appellations": "",
+      "Genre": {
+        "id": 2786,
+        "value": "Homme",
+        "color": "light-brown"
+      },
+      "Attributs": [],
+      "Lieu": [
+        {
+          "id": 45,
+          "value": "Judée"
+        }
+      ],
+      "Description": "",
+      "Non présent": false,
+      "Lien": "https://www.maria-valtorta.org/Personnages/Chouza.htm",
+      "ChapitreRef": [],
+      "ChapitrePresent": []
+    },
+    {
+      "id": 398,
+      "order": "27.00000000000000000000",
+      "Nom": "Claudia Procula",
+      "Appellations": "Procla, Domina",
+      "Genre": {
+        "id": 2787,
+        "value": "Femme",
+        "color": "light-red"
+      },
+      "Attributs": [],
+      "Lieu": [],
+      "Description": "",
+      "Non présent": false,
+      "Lien": "https://www.maria-valtorta.org/Personnages/ClaudiaProcula.htm",
+      "ChapitreRef": [],
+      "ChapitrePresent": []
+    },
+    {
+      "id": 399,
+      "order": "28.00000000000000000000",
+      "Nom": "Cléophas",
+      "Appellations": "",
+      "Genre": {
+        "id": 2786,
+        "value": "Homme",
+        "color": "light-brown"
+      },
+      "Attributs": [
+        {
+          "id": 2803,
+          "value": "Chef de Synagogue",
+          "color": "dark-yellow"
+        }
+      ],
+      "Lieu": [
+        {
+          "id": 53,
+          "value": "Emmaüs"
+        }
+      ],
+      "Description": "",
+      "Non présent": false,
+      "Lien": "https://www.maria-valtorta.org/Personnages/CleophasEmmaus.htm",
+      "ChapitreRef": [],
+      "ChapitrePresent": []
+    },
+    {
+      "id": 400,
+      "order": "29.00000000000000000000",
+      "Nom": "Cléophas",
+      "Appellations": "",
+      "Genre": {
+        "id": 2786,
+        "value": "Homme",
+        "color": "light-brown"
+      },
+      "Attributs": [
+        {
+          "id": 2789,
+          "value": "Disciple",
+          "color": "darker-pink"
+        }
+      ],
+      "Lieu": [
+        {
+          "id": 53,
+          "value": "Emmaüs"
+        }
+      ],
+      "Description": "Disciple d'Emmaüs. Autour de 35 et 40 ans.",
+      "Non présent": false,
+      "Lien": "https://www.maria-valtorta.org/Personnages/CleophasCleophas.htm",
+      "ChapitreRef": [],
+      "ChapitrePresent": []
+    },
+    {
+      "id": 401,
+      "order": "30.00000000000000000000",
+      "Nom": "Cléophas",
+      "Appellations": "",
+      "Genre": {
+        "id": 2786,
+        "value": "Homme",
+        "color": "light-brown"
+      },
+      "Attributs": [],
+      "Lieu": [],
+      "Description": "",
+      "Non présent": true,
+      "Lien": null,
+      "ChapitreRef": [],
+      "ChapitrePresent": []
+    },
+    {
+      "id": 402,
+      "order": "31.00000000000000000000",
+      "Nom": "Daniel",
+      "Appellations": "",
+      "Genre": {
+        "id": 2786,
+        "value": "Homme",
+        "color": "light-brown"
+      },
+      "Attributs": [],
+      "Lieu": [
+        {
+          "id": 37,
+          "value": "Bethsour"
+        }
+      ],
+      "Description": "",
+      "Non présent": false,
+      "Lien": null,
+      "ChapitreRef": [],
+      "ChapitrePresent": []
+    },
+    {
+      "id": 403,
+      "order": "32.00000000000000000000",
+      "Nom": "Daniel",
+      "Appellations": "",
+      "Genre": {
+        "id": 2786,
+        "value": "Homme",
+        "color": "light-brown"
+      },
+      "Attributs": [],
+      "Lieu": [
+        {
+          "id": 43,
+          "value": "Alexandroscène de Phénicie"
+        }
+      ],
+      "Description": "",
+      "Non présent": false,
+      "Lien": "https://www.maria-valtorta.org/Personnages/DanielAlexandroscene.htm",
+      "ChapitreRef": [],
+      "ChapitrePresent": []
+    },
+    {
+      "id": 404,
+      "order": "33.00000000000000000000",
+      "Nom": "Daniel",
+      "Appellations": "",
+      "Genre": {
+        "id": 2786,
+        "value": "Homme",
+        "color": "light-brown"
+      },
+      "Attributs": [
+        {
+          "id": 2814,
+          "value": "Berger",
+          "color": "yellow"
+        },
+        {
+          "id": 2788,
+          "value": "Berger de la Nativité",
+          "color": "purple"
+        },
+        {
+          "id": 2789,
+          "value": "Disciple",
+          "color": "darker-pink"
+        }
+      ],
+      "Lieu": [
+        {
+          "id": 46,
+          "value": "Bethléem"
+        },
+        {
+          "id": 64,
+          "value": "Liban"
+        }
+      ],
+      "Description": "Homme d'âge mûr",
+      "Non présent": false,
+      "Lien": "https://www.maria-valtorta.org/Personnages/DanielBethleem.htm",
+      "ChapitreRef": [],
+      "ChapitrePresent": []
+    },
+    {
+      "id": 405,
+      "order": "34.00000000000000000000",
+      "Nom": "Doras",
+      "Appellations": "",
+      "Genre": {
+        "id": 2786,
+        "value": "Homme",
+        "color": "light-brown"
+      },
+      "Attributs": [
+        {
+          "id": 2815,
+          "value": "Pharisien",
+          "color": "darker-blue"
+        },
+        {
+          "id": 2807,
+          "value": "Sanhédriste",
+          "color": "deep-dark-green"
+        }
+      ],
+      "Lieu": [],
+      "Description": "Grand propriétaire terrien, il possède les terres les plus riches d'Israël.",
+      "Non présent": false,
+      "Lien": "https://www.maria-valtorta.org/Personnages/Doras.htm",
+      "ChapitreRef": [],
+      "ChapitrePresent": []
+    },
+    {
+      "id": 406,
+      "order": "35.00000000000000000000",
+      "Nom": "Dosithée",
+      "Appellations": "",
+      "Genre": {
+        "id": 2786,
+        "value": "Homme",
+        "color": "light-brown"
+      },
+      "Attributs": [],
+      "Lieu": [
+        {
+          "id": 44,
+          "value": "Antigonéa"
+        }
+      ],
+      "Description": "",
+      "Non présent": false,
+      "Lien": "https://www.maria-valtorta.org/Personnages/Dosithee.htm",
+      "ChapitreRef": [],
+      "ChapitrePresent": []
+    },
+    {
+      "id": 407,
+      "order": "36.00000000000000000000",
+      "Nom": "Elcana",
+      "Appellations": "",
+      "Genre": {
+        "id": 2786,
+        "value": "Homme",
+        "color": "light-brown"
+      },
+      "Attributs": [
+        {
+          "id": 2791,
+          "value": "Classe des Anciens",
+          "color": "light-purple"
+        }
+      ],
+      "Lieu": [],
+      "Description": "",
+      "Non présent": false,
+      "Lien": "https://www.maria-valtorta.org/Personnages/Elcana.htm",
+      "ChapitreRef": [],
+      "ChapitrePresent": []
+    },
+    {
+      "id": 408,
+      "order": "37.00000000000000000000",
+      "Nom": "Elchias",
+      "Appellations": "",
+      "Genre": {
+        "id": 2786,
+        "value": "Homme",
+        "color": "light-brown"
+      },
+      "Attributs": [
+        {
+          "id": 2809,
+          "value": "Trésorier du Temple",
+          "color": "red"
+        }
+      ],
+      "Lieu": [],
+      "Description": "",
+      "Non présent": false,
+      "Lien": "https://www.maria-valtorta.org/Personnages/ElchiasSynhedriste.htm",
+      "ChapitreRef": [],
+      "ChapitrePresent": []
+    },
+    {
+      "id": 409,
+      "order": "38.00000000000000000000",
+      "Nom": "Eleazar ben Anna",
+      "Appellations": "",
+      "Genre": {
+        "id": 2786,
+        "value": "Homme",
+        "color": "light-brown"
+      },
+      "Attributs": [
+        {
+          "id": 2805,
+          "value": "Ancien Grand-Prêtre",
+          "color": "darker-brown"
+        }
+      ],
+      "Lieu": [],
+      "Description": "",
+      "Non présent": false,
+      "Lien": "https://www.maria-valtorta.org/Personnages/EleazarBenAnna.htm",
+      "ChapitreRef": [],
+      "ChapitrePresent": []
+    },
+    {
+      "id": 410,
+      "order": "39.00000000000000000000",
+      "Nom": "Eleazar ben Boëthos",
+      "Appellations": "",
+      "Genre": {
+        "id": 2786,
+        "value": "Homme",
+        "color": "light-brown"
+      },
+      "Attributs": [
+        {
+          "id": 2805,
+          "value": "Ancien Grand-Prêtre",
+          "color": "darker-brown"
+        }
+      ],
+      "Lieu": [],
+      "Description": "",
+      "Non présent": false,
+      "Lien": null,
+      "ChapitreRef": [],
+      "ChapitrePresent": []
+    },
+    {
+      "id": 411,
+      "order": "40.00000000000000000000",
+      "Nom": "Elie",
+      "Appellations": "",
+      "Genre": {
+        "id": 2786,
+        "value": "Homme",
+        "color": "light-brown"
+      },
+      "Attributs": [],
+      "Lieu": [
+        {
+          "id": 43,
+          "value": "Alexandroscène de Phénicie"
+        }
+      ],
+      "Description": "",
+      "Non présent": false,
+      "Lien": "https://www.maria-valtorta.org/Personnages/ElieAlexandroscene.htm",
+      "ChapitreRef": [],
+      "ChapitrePresent": []
+    },
+    {
+      "id": 412,
+      "order": "41.00000000000000000000",
+      "Nom": "Elie",
+      "Appellations": "",
+      "Genre": {
+        "id": 2786,
+        "value": "Homme",
+        "color": "light-brown"
+      },
+      "Attributs": [
+        {
+          "id": 2814,
+          "value": "Berger",
+          "color": "yellow"
+        },
+        {
+          "id": 2789,
+          "value": "Disciple",
+          "color": "darker-pink"
+        }
+      ],
+      "Lieu": [
+        {
+          "id": 42,
+          "value": "Hébron"
+        },
+        {
+          "id": 46,
+          "value": "Bethléem"
+        }
+      ],
+      "Description": "",
+      "Non présent": false,
+      "Lien": "https://www.maria-valtorta.org/Personnages/ElieBethleem.htm",
+      "ChapitreRef": [],
+      "ChapitrePresent": []
+    },
+    {
+      "id": 413,
+      "order": "42.00000000000000000000",
+      "Nom": "Eliel",
+      "Appellations": "",
+      "Genre": {
+        "id": 2786,
+        "value": "Homme",
+        "color": "light-brown"
+      },
+      "Attributs": [
+        {
+          "id": 2791,
+          "value": "Classe des Anciens",
+          "color": "light-purple"
+        }
+      ],
+      "Lieu": [],
+      "Description": "",
+      "Non présent": false,
+      "Lien": "https://www.maria-valtorta.org/Personnages/Eliel.htm",
+      "ChapitreRef": [],
+      "ChapitrePresent": []
+    },
+    {
+      "id": 414,
+      "order": "43.00000000000000000000",
+      "Nom": "Elisabeth",
+      "Appellations": "",
+      "Genre": {
+        "id": 2787,
+        "value": "Femme",
+        "color": "light-red"
+      },
+      "Attributs": [],
+      "Lieu": [],
+      "Description": "Descendante d'Aaron",
+      "Non présent": false,
+      "Lien": "https://www.maria-valtorta.org/Personnages/Elizabeth.htm",
+      "ChapitreRef": [],
+      "ChapitrePresent": []
+    },
+    {
+      "id": 415,
+      "order": "44.00000000000000000000",
+      "Nom": "Elise",
+      "Appellations": "",
+      "Genre": {
+        "id": 2787,
+        "value": "Femme",
+        "color": "light-red"
+      },
+      "Attributs": [
+        {
+          "id": 2789,
+          "value": "Disciple",
+          "color": "darker-pink"
+        }
+      ],
+      "Lieu": [
+        {
+          "id": 37,
+          "value": "Bethsour"
+        }
+      ],
+      "Description": "",
+      "Non présent": false,
+      "Lien": "https://www.maria-valtorta.org/Personnages/EliseBethsour.htm",
+      "ChapitreRef": [],
+      "ChapitrePresent": []
+    },
+    {
+      "id": 416,
+      "order": "45.00000000000000000000",
+      "Nom": "Esther",
+      "Appellations": "",
+      "Genre": {
+        "id": 2787,
+        "value": "Femme",
+        "color": "light-red"
+      },
+      "Attributs": [],
+      "Lieu": [],
+      "Description": "",
+      "Non présent": false,
+      "Lien": "https://www.maria-valtorta.org/Personnages/EstherChouza.htm",
+      "ChapitreRef": [],
+      "ChapitrePresent": []
+    },
+    {
+      "id": 417,
+      "order": "46.00000000000000000000",
+      "Nom": "Etienne",
+      "Appellations": "",
+      "Genre": {
+        "id": 2786,
+        "value": "Homme",
+        "color": "light-brown"
+      },
+      "Attributs": [
+        {
+          "id": 2789,
+          "value": "Disciple",
+          "color": "darker-pink"
+        },
+        {
+          "id": 2802,
+          "value": "Martyr",
+          "color": "darker-yellow"
+        }
+      ],
+      "Lieu": [],
+      "Description": "Disciple premier martyr",
+      "Non présent": false,
+      "Lien": "https://www.maria-valtorta.org/Personnages/Etienne.htm",
+      "ChapitreRef": [],
+      "ChapitrePresent": []
+    },
+    {
+      "id": 418,
+      "order": "47.00000000000000000000",
+      "Nom": "Euchérie",
+      "Appellations": "",
+      "Genre": {
+        "id": 2787,
+        "value": "Femme",
+        "color": "light-red"
+      },
+      "Attributs": [],
+      "Lieu": [],
+      "Description": "De lignée royale, de la tribu de Juda",
+      "Non présent": false,
+      "Lien": "https://www.maria-valtorta.org/Personnages/Eucherie.htm",
+      "ChapitreRef": [],
+      "ChapitrePresent": []
+    },
+    {
+      "id": 419,
+      "order": "48.00000000000000000000",
+      "Nom": "Faustina",
+      "Appellations": "",
+      "Genre": {
+        "id": 2787,
+        "value": "Femme",
+        "color": "light-red"
+      },
+      "Attributs": [
+        {
+          "id": 2798,
+          "value": "Romain",
+          "color": "blue"
+        }
+      ],
+      "Lieu": [],
+      "Description": "Bébé",
+      "Non présent": false,
+      "Lien": "https://www.maria-valtorta.org/Personnages/Faustina.htm",
+      "ChapitreRef": [],
+      "ChapitrePresent": []
+    },
+    {
+      "id": 420,
+      "order": "49.00000000000000000000",
+      "Nom": "Flavia Domitilla",
+      "Appellations": "",
+      "Genre": {
+        "id": 2787,
+        "value": "Femme",
+        "color": "light-red"
+      },
+      "Attributs": [
+        {
+          "id": 2801,
+          "value": "Sténographe",
+          "color": "light-green"
+        },
+        {
+          "id": 2800,
+          "value": "Affranchie",
+          "color": "darker-red"
+        }
+      ],
+      "Lieu": [],
+      "Description": "",
+      "Non présent": false,
+      "Lien": "https://www.maria-valtorta.org/Personnages/Flavia.htm",
+      "ChapitreRef": [],
+      "ChapitrePresent": []
+    },
+    {
+      "id": 421,
+      "order": "50.00000000000000000000",
+      "Nom": "Gamaliel",
+      "Appellations": "",
+      "Genre": {
+        "id": 2786,
+        "value": "Homme",
+        "color": "light-brown"
+      },
+      "Attributs": [
+        {
+          "id": 2804,
+          "value": "Scribe",
+          "color": "dark-blue"
+        }
+      ],
+      "Lieu": [],
+      "Description": "",
+      "Non présent": false,
+      "Lien": "https://www.maria-valtorta.org/Personnages/Gamaliel.htm",
+      "ChapitreRef": [],
+      "ChapitrePresent": []
+    },
+    {
+      "id": 422,
+      "order": "51.00000000000000000000",
+      "Nom": "Hanne",
+      "Appellations": "Anne, Hannan, Hanan",
+      "Genre": {
+        "id": 2786,
+        "value": "Homme",
+        "color": "light-brown"
+      },
+      "Attributs": [
+        {
+          "id": 2805,
+          "value": "Ancien Grand-Prêtre",
+          "color": "darker-brown"
+        }
+      ],
+      "Lieu": [],
+      "Description": "",
+      "Non présent": false,
+      "Lien": "https://www.maria-valtorta.org/Personnages/AnnaGrandPretre.htm",
+      "ChapitreRef": [],
+      "ChapitrePresent": []
+    },
+    {
+      "id": 423,
+      "order": "52.00000000000000000000",
+      "Nom": "Hermas",
+      "Appellations": "",
+      "Genre": {
+        "id": 2786,
+        "value": "Homme",
+        "color": "light-brown"
+      },
+      "Attributs": [
+        {
+          "id": 2789,
+          "value": "Disciple",
+          "color": "darker-pink"
+        }
+      ],
+      "Lieu": [
+        {
+          "id": 53,
+          "value": "Emmaüs"
+        }
+      ],
+      "Description": "Un peu plus âgé qu'Etienne, autour de 30 ans.",
+      "Non présent": false,
+      "Lien": "https://www.maria-valtorta.org/Personnages/HermasDisciple.htm",
+      "ChapitreRef": [],
+      "ChapitrePresent": []
+    },
+    {
+      "id": 424,
+      "order": "53.00000000000000000000",
+      "Nom": "Hermas",
+      "Appellations": "",
+      "Genre": {
+        "id": 2786,
+        "value": "Homme",
+        "color": "light-brown"
+      },
+      "Attributs": [],
+      "Lieu": [
+        {
+          "id": 44,
+          "value": "Antigonéa"
+        }
+      ],
+      "Description": "",
+      "Non présent": false,
+      "Lien": "https://www.maria-valtorta.org/Personnages/PersonnagesRencontre02.htm#Syrie",
+      "ChapitreRef": [],
+      "ChapitrePresent": []
+    },
+    {
+      "id": 425,
+      "order": "54.00000000000000000000",
+      "Nom": "Hermione",
+      "Appellations": "",
+      "Genre": {
+        "id": 2787,
+        "value": "Femme",
+        "color": "light-red"
+      },
+      "Attributs": [],
+      "Lieu": [
+        {
+          "id": 43,
+          "value": "Alexandroscène de Phénicie"
+        },
+        {
+          "id": 44,
+          "value": "Antigonéa"
+        }
+      ],
+      "Description": "Fille d'un prosélyte et d'une grecque.",
+      "Non présent": false,
+      "Lien": "https://www.maria-valtorta.org/Personnages/Hermione.htm",
+      "ChapitreRef": [],
+      "ChapitrePresent": []
+    },
+    {
+      "id": 426,
+      "order": "55.00000000000000000000",
+      "Nom": "Hérode 1ier le Grand",
+      "Appellations": "",
+      "Genre": {
+        "id": 2786,
+        "value": "Homme",
+        "color": "light-brown"
+      },
+      "Attributs": [
+        {
+          "id": 2796,
+          "value": "Roi",
+          "color": "light-gray"
+        }
+      ],
+      "Lieu": [
+        {
+          "id": 45,
+          "value": "Judée"
+        }
+      ],
+      "Description": "Roi de Judée",
+      "Non présent": false,
+      "Lien": "https://www.maria-valtorta.org/Personnages/Herode.htm",
+      "ChapitreRef": [],
+      "ChapitrePresent": []
+    },
+    {
+      "id": 427,
+      "order": "56.00000000000000000000",
+      "Nom": "Hérode Antipas",
+      "Appellations": "",
+      "Genre": {
+        "id": 2786,
+        "value": "Homme",
+        "color": "light-brown"
+      },
+      "Attributs": [
+        {
+          "id": 2796,
+          "value": "Roi",
+          "color": "light-gray"
+        }
+      ],
+      "Lieu": [
+        {
+          "id": 45,
+          "value": "Judée"
+        }
+      ],
+      "Description": "Roi de Judée",
+      "Non présent": false,
+      "Lien": "https://www.maria-valtorta.org/Personnages/HerodeAntipas.htm",
+      "ChapitreRef": [],
+      "ChapitrePresent": []
+    },
+    {
+      "id": 428,
+      "order": "57.00000000000000000000",
+      "Nom": "Hérode-Philippe",
+      "Appellations": "",
+      "Genre": {
+        "id": 2786,
+        "value": "Homme",
+        "color": "light-brown"
+      },
+      "Attributs": [],
+      "Lieu": [],
+      "Description": "",
+      "Non présent": false,
+      "Lien": "https://www.maria-valtorta.org/Personnages/PhilippeTetrarque.htm",
+      "ChapitreRef": [],
+      "ChapitrePresent": []
+    },
+    {
+      "id": 429,
+      "order": "58.00000000000000000000",
+      "Nom": "Hérodiade",
+      "Appellations": "",
+      "Genre": {
+        "id": 2787,
+        "value": "Femme",
+        "color": "light-red"
+      },
+      "Attributs": [],
+      "Lieu": [],
+      "Description": "2ième femme d'Hérode",
+      "Non présent": false,
+      "Lien": "https://www.maria-valtorta.org/Personnages/Herodiade.htm",
+      "ChapitreRef": [],
+      "ChapitrePresent": []
+    },
+    {
+      "id": 430,
+      "order": "59.00000000000000000000",
+      "Nom": "Inconnu",
+      "Appellations": "",
+      "Genre": {
+        "id": 2787,
+        "value": "Femme",
+        "color": "light-red"
+      },
+      "Attributs": [
+        {
+          "id": 2810,
+          "value": "Vierge consacrée",
+          "color": "dark-cyan"
+        },
+        {
+          "id": 2789,
+          "value": "Disciple",
+          "color": "darker-pink"
+        }
+      ],
+      "Lieu": [],
+      "Description": "",
+      "Non présent": false,
+      "Lien": null,
+      "ChapitreRef": [],
+      "ChapitrePresent": []
+    },
+    {
+      "id": 431,
+      "order": "60.00000000000000000000",
+      "Nom": "Inconnu",
+      "Appellations": "",
+      "Genre": {
+        "id": 2787,
+        "value": "Femme",
+        "color": "light-red"
+      },
+      "Attributs": [
+        {
+          "id": 2793,
+          "value": "Grecque",
+          "color": "darker-green"
+        }
+      ],
+      "Lieu": [
+        {
+          "id": 43,
+          "value": "Alexandroscène de Phénicie"
+        }
+      ],
+      "Description": "",
+      "Non présent": false,
+      "Lien": null,
+      "ChapitreRef": [],
+      "ChapitrePresent": []
+    },
+    {
+      "id": 432,
+      "order": "61.00000000000000000000",
+      "Nom": "Inconnu",
+      "Appellations": "",
+      "Genre": {
+        "id": 2786,
+        "value": "Homme",
+        "color": "light-brown"
+      },
+      "Attributs": [],
+      "Lieu": [
+        {
+          "id": 40,
+          "value": "Cana"
+        }
+      ],
+      "Description": "",
+      "Non présent": false,
+      "Lien": null,
+      "ChapitreRef": [],
+      "ChapitrePresent": []
+    },
+    {
+      "id": 433,
+      "order": "62.00000000000000000000",
+      "Nom": "Inconnu",
+      "Appellations": "",
+      "Genre": {
+        "id": 2787,
+        "value": "Femme",
+        "color": "light-red"
+      },
+      "Attributs": [
+        {
+          "id": 2810,
+          "value": "Vierge consacrée",
+          "color": "dark-cyan"
+        },
+        {
+          "id": 2789,
+          "value": "Disciple",
+          "color": "darker-pink"
+        }
+      ],
+      "Lieu": [],
+      "Description": "",
+      "Non présent": false,
+      "Lien": null,
+      "ChapitreRef": [],
+      "ChapitrePresent": []
+    },
+    {
+      "id": 434,
+      "order": "63.00000000000000000000",
+      "Nom": "Isaac",
+      "Appellations": "",
+      "Genre": {
+        "id": 2786,
+        "value": "Homme",
+        "color": "light-brown"
+      },
+      "Attributs": [
+        {
+          "id": 2789,
+          "value": "Disciple",
+          "color": "darker-pink"
+        },
+        {
+          "id": 2788,
+          "value": "Berger de la Nativité",
+          "color": "purple"
+        }
+      ],
+      "Lieu": [
+        {
+          "id": 65,
+          "value": "Jutta"
+        }
+      ],
+      "Description": "",
+      "Non présent": false,
+      "Lien": "https://www.maria-valtorta.org/Personnages/IsaacJutta.htm",
+      "ChapitreRef": [],
+      "ChapitrePresent": []
+    },
+    {
+      "id": 435,
+      "order": "64.00000000000000000000",
+      "Nom": "Ismaël",
+      "Appellations": "",
+      "Genre": {
+        "id": 2786,
+        "value": "Homme",
+        "color": "light-brown"
+      },
+      "Attributs": [],
+      "Lieu": [
+        {
+          "id": 38,
+          "value": "Béthanie"
+        }
+      ],
+      "Description": "Vieillard qui veut accomplir son pèlerinage à Jérusalem",
+      "Non présent": false,
+      "Lien": "https://www.maria-valtorta.org/Personnages/IsmaelBethanie.htm",
+      "ChapitreRef": [],
+      "ChapitrePresent": []
+    },
+    {
+      "id": 436,
+      "order": "65.00000000000000000000",
+      "Nom": "Jacob",
+      "Appellations": "",
+      "Genre": {
+        "id": 2786,
+        "value": "Homme",
+        "color": "light-brown"
+      },
+      "Attributs": [
+        {
+          "id": 2804,
+          "value": "Scribe",
+          "color": "dark-blue"
+        }
+      ],
+      "Lieu": [],
+      "Description": "",
+      "Non présent": false,
+      "Lien": null,
+      "ChapitreRef": [],
+      "ChapitrePresent": []
+    },
+    {
+      "id": 437,
+      "order": "66.00000000000000000000",
+      "Nom": "Jacques",
+      "Appellations": "Le mineur",
+      "Genre": {
+        "id": 2786,
+        "value": "Homme",
+        "color": "light-brown"
+      },
+      "Attributs": [
+        {
+          "id": 2790,
+          "value": "Apôtre",
+          "color": "green"
+        }
+      ],
+      "Lieu": [],
+      "Description": "",
+      "Non présent": false,
+      "Lien": "https://maria-valtorta.org/Personnages/JacquesAlphee.htm",
+      "ChapitreRef": [],
+      "ChapitrePresent": []
+    },
+    {
+      "id": 438,
+      "order": "67.00000000000000000000",
+      "Nom": "Jacques",
+      "Appellations": "Fils du tonnerre, Le majeur",
+      "Genre": {
+        "id": 2786,
+        "value": "Homme",
+        "color": "light-brown"
+      },
+      "Attributs": [
+        {
+          "id": 2790,
+          "value": "Apôtre",
+          "color": "green"
+        }
+      ],
+      "Lieu": [],
+      "Description": "",
+      "Non présent": false,
+      "Lien": "https://www.maria-valtorta.org/Personnages/JacquesZebedee.htm",
+      "ChapitreRef": [],
+      "ChapitrePresent": []
+    },
+    {
+      "id": 439,
+      "order": "68.00000000000000000000",
+      "Nom": "Jaïre",
+      "Appellations": "",
+      "Genre": {
+        "id": 2786,
+        "value": "Homme",
+        "color": "light-brown"
+      },
+      "Attributs": [
+        {
+          "id": 2803,
+          "value": "Chef de Synagogue",
+          "color": "dark-yellow"
+        },
+        {
+          "id": 2789,
+          "value": "Disciple",
+          "color": "darker-pink"
+        }
+      ],
+      "Lieu": [
+        {
+          "id": 49,
+          "value": "Capharnaüm"
+        }
+      ],
+      "Description": "",
+      "Non présent": false,
+      "Lien": "https://www.maria-valtorta.org/Personnages/Jaire.htm",
+      "ChapitreRef": [],
+      "ChapitrePresent": []
+    },
+    {
+      "id": 440,
+      "order": "69.00000000000000000000",
+      "Nom": "Jean",
+      "Appellations": "",
+      "Genre": {
+        "id": 2786,
+        "value": "Homme",
+        "color": "light-brown"
+      },
+      "Attributs": [
+        {
+          "id": 2803,
+          "value": "Chef de Synagogue",
+          "color": "dark-yellow"
+        },
+        {
+          "id": 2789,
+          "value": "Disciple",
+          "color": "darker-pink"
+        }
+      ],
+      "Lieu": [
+        {
+          "id": 51,
+          "value": "Éphèse"
+        }
+      ],
+      "Description": "",
+      "Non présent": false,
+      "Lien": "https://www.maria-valtorta.org/Personnages/JeanEphese.htm",
+      "ChapitreRef": [],
+      "ChapitrePresent": []
+    },
+    {
+      "id": 441,
+      "order": "70.00000000000000000000",
+      "Nom": "Jean d'Endor",
+      "Appellations": "",
+      "Genre": {
+        "id": 2786,
+        "value": "Homme",
+        "color": "light-brown"
+      },
+      "Attributs": [
+        {
+          "id": 2789,
+          "value": "Disciple",
+          "color": "darker-pink"
+        }
+      ],
+      "Lieu": [],
+      "Description": "Disciple réfugié",
+      "Non présent": false,
+      "Lien": "https://www.maria-valtorta.org/Personnages/JeanEndor.htm",
+      "ChapitreRef": [],
+      "ChapitrePresent": []
+    },
+    {
+      "id": 442,
+      "order": "71.00000000000000000000",
+      "Nom": "Jean de Gaas",
+      "Appellations": "",
+      "Genre": {
+        "id": 2786,
+        "value": "Homme",
+        "color": "light-brown"
+      },
+      "Attributs": [
+        {
+          "id": 2791,
+          "value": "Classe des Anciens",
+          "color": "light-purple"
+        }
+      ],
+      "Lieu": [],
+      "Description": "",
+      "Non présent": false,
+      "Lien": "https://www.maria-valtorta.org/Personnages/JeanSynhedriste.htm",
+      "ChapitreRef": [],
+      "ChapitrePresent": []
+    },
+    {
+      "id": 443,
+      "order": "72.00000000000000000000",
+      "Nom": "Jean-Baptiste",
+      "Appellations": "Jean le Baptiste, Jean l'immergeur, Yohanan, Le Précurseur",
+      "Genre": {
+        "id": 2786,
+        "value": "Homme",
+        "color": "light-brown"
+      },
+      "Attributs": [],
+      "Lieu": [],
+      "Description": "",
+      "Non présent": false,
+      "Lien": "https://www.maria-valtorta.org/Personnages/JeanBaptiste.htm",
+      "ChapitreRef": [],
+      "ChapitrePresent": []
+    },
+    {
+      "id": 444,
+      "order": "73.00000000000000000000",
+      "Nom": "Jean",
+      "Appellations": "Fils du tonnerre",
+      "Genre": {
+        "id": 2786,
+        "value": "Homme",
+        "color": "light-brown"
+      },
+      "Attributs": [
+        {
+          "id": 2790,
+          "value": "Apôtre",
+          "color": "green"
+        }
+      ],
+      "Lieu": [],
+      "Description": "",
+      "Non présent": false,
+      "Lien": "https://www.maria-valtorta.org/Personnages/JeanZebedee.htm",
+      "ChapitreRef": [],
+      "ChapitrePresent": []
+    },
+    {
+      "id": 445,
+      "order": "74.00000000000000000000",
+      "Nom": "Jean",
+      "Appellations": "",
+      "Genre": {
+        "id": 2786,
+        "value": "Homme",
+        "color": "light-brown"
+      },
+      "Attributs": [
+        {
+          "id": 2788,
+          "value": "Berger de la Nativité",
+          "color": "purple"
+        },
+        {
+          "id": 2789,
+          "value": "Disciple",
+          "color": "darker-pink"
+        }
+      ],
+      "Lieu": [
+        {
+          "id": 64,
+          "value": "Liban"
+        }
+      ],
+      "Description": "",
+      "Non présent": false,
+      "Lien": "https://www.maria-valtorta.org/Personnages/JeanBethleem.htm",
+      "ChapitreRef": [],
+      "ChapitrePresent": []
+    },
+    {
+      "id": 446,
+      "order": "75.00000000000000000000",
+      "Nom": "Jeanne",
+      "Appellations": "Joanne",
+      "Genre": {
+        "id": 2787,
+        "value": "Femme",
+        "color": "light-red"
+      },
+      "Attributs": [],
+      "Lieu": [],
+      "Description": "",
+      "Non présent": false,
+      "Lien": null,
+      "ChapitreRef": [],
+      "ChapitrePresent": []
+    },
+    {
+      "id": 447,
+      "order": "76.00000000000000000000",
+      "Nom": "Jeanne",
+      "Appellations": "",
+      "Genre": {
+        "id": 2787,
+        "value": "Femme",
+        "color": "light-red"
+      },
+      "Attributs": [
+        {
+          "id": 2789,
+          "value": "Disciple",
+          "color": "darker-pink"
+        }
+      ],
+      "Lieu": [],
+      "Description": "Princesse royale",
+      "Non présent": false,
+      "Lien": "https://www.maria-valtorta.org/Personnages/JeanneChouza.htm",
+      "ChapitreRef": [],
+      "ChapitrePresent": []
+    },
+    {
+      "id": 448,
+      "order": "77.00000000000000000000",
+      "Nom": "Jésus-Christ",
+      "Appellations": "",
+      "Genre": {
+        "id": 2786,
+        "value": "Homme",
+        "color": "light-brown"
+      },
+      "Attributs": [],
+      "Lieu": [],
+      "Description": "",
+      "Non présent": false,
+      "Lien": "https://www.maria-valtorta.org/Personnages/Jesus.htm",
+      "ChapitreRef": [],
+      "ChapitrePresent": []
+    },
+    {
+      "id": 449,
+      "order": "78.00000000000000000000",
+      "Nom": "Joachim",
+      "Appellations": "",
+      "Genre": {
+        "id": 2786,
+        "value": "Homme",
+        "color": "light-brown"
+      },
+      "Attributs": [],
+      "Lieu": [],
+      "Description": "",
+      "Non présent": false,
+      "Lien": "https://www.maria-valtorta.org/Personnages/JoachimDavid.htm",
+      "ChapitreRef": [],
+      "ChapitrePresent": []
+    },
+    {
+      "id": 450,
+      "order": "79.00000000000000000000",
+      "Nom": "Joazar ben Boëthos",
+      "Appellations": "",
+      "Genre": {
+        "id": 2786,
+        "value": "Homme",
+        "color": "light-brown"
+      },
+      "Attributs": [
+        {
+          "id": 2805,
+          "value": "Ancien Grand-Prêtre",
+          "color": "darker-brown"
+        }
+      ],
+      "Lieu": [],
+      "Description": "",
+      "Non présent": false,
+      "Lien": "https://www.maria-valtorta.org/Personnages/JoazarSynhedriste.htm",
+      "ChapitreRef": [],
+      "ChapitrePresent": []
+    },
+    {
+      "id": 451,
+      "order": "80.00000000000000000000",
+      "Nom": "Jonas",
+      "Appellations": "",
+      "Genre": {
+        "id": 2786,
+        "value": "Homme",
+        "color": "light-brown"
+      },
+      "Attributs": [
+        {
+          "id": 2788,
+          "value": "Berger de la Nativité",
+          "color": "purple"
+        }
+      ],
+      "Lieu": [
+        {
+          "id": 66,
+          "value": "Esdrelon"
+        }
+      ],
+      "Description": "",
+      "Non présent": false,
+      "Lien": "https://www.maria-valtorta.org/Personnages/JonasBethleem.htm",
+      "ChapitreRef": [],
+      "ChapitrePresent": []
+    },
+    {
+      "id": 452,
+      "order": "81.00000000000000000000",
+      "Nom": "Jonas",
+      "Appellations": "",
+      "Genre": {
+        "id": 2786,
+        "value": "Homme",
+        "color": "light-brown"
+      },
+      "Attributs": [],
+      "Lieu": [],
+      "Description": "",
+      "Non présent": true,
+      "Lien": null,
+      "ChapitreRef": [],
+      "ChapitrePresent": []
+    },
+    {
+      "id": 453,
+      "order": "82.00000000000000000000",
+      "Nom": "Jonathas",
+      "Appellations": "",
+      "Genre": {
+        "id": 2786,
+        "value": "Homme",
+        "color": "light-brown"
+      },
+      "Attributs": [
+        {
+          "id": 2808,
+          "value": "Chef de la Police du Temple",
+          "color": "dark-orange"
+        }
+      ],
+      "Lieu": [],
+      "Description": "",
+      "Non présent": false,
+      "Lien": "https://www.maria-valtorta.org/Personnages/JonathasSynhedriste.htm",
+      "ChapitreRef": [],
+      "ChapitrePresent": []
+    },
+    {
+      "id": 454,
+      "order": "83.00000000000000000000",
+      "Nom": "Jonathas",
+      "Appellations": "",
+      "Genre": {
+        "id": 2786,
+        "value": "Homme",
+        "color": "light-brown"
+      },
+      "Attributs": [
+        {
+          "id": 2788,
+          "value": "Berger de la Nativité",
+          "color": "purple"
+        },
+        {
+          "id": 2789,
+          "value": "Disciple",
+          "color": "darker-pink"
+        }
+      ],
+      "Lieu": [
+        {
+          "id": 46,
+          "value": "Bethléem"
+        }
+      ],
+      "Description": "",
+      "Non présent": false,
+      "Lien": "https://www.maria-valtorta.org/Personnages/JonathasBethleem.htm",
+      "ChapitreRef": [],
+      "ChapitrePresent": []
+    },
+    {
+      "id": 455,
+      "order": "84.00000000000000000000",
+      "Nom": "Joseph",
+      "Appellations": "Le juste",
+      "Genre": {
+        "id": 2786,
+        "value": "Homme",
+        "color": "light-brown"
+      },
+      "Attributs": [
+        {
+          "id": 2789,
+          "value": "Disciple",
+          "color": "darker-pink"
+        },
+        {
+          "id": 2814,
+          "value": "Berger",
+          "color": "yellow"
+        }
+      ],
+      "Lieu": [],
+      "Description": "",
+      "Non présent": false,
+      "Lien": "https://www.maria-valtorta.org/Personnages/JosephJoseph.htm",
+      "ChapitreRef": [],
+      "ChapitrePresent": []
+    },
+    {
+      "id": 456,
+      "order": "85.00000000000000000000",
+      "Nom": "Joseph",
+      "Appellations": "Saint Joseph",
+      "Genre": {
+        "id": 2786,
+        "value": "Homme",
+        "color": "light-brown"
+      },
+      "Attributs": [],
+      "Lieu": [],
+      "Description": "",
+      "Non présent": false,
+      "Lien": "https://www.maria-valtorta.org/Personnages/JosephJacob.htm",
+      "ChapitreRef": [],
+      "ChapitrePresent": []
+    },
+    {
+      "id": 457,
+      "order": "86.00000000000000000000",
+      "Nom": "Joseph",
+      "Appellations": "Joseph l'Ancien",
+      "Genre": {
+        "id": 2786,
+        "value": "Homme",
+        "color": "light-brown"
+      },
+      "Attributs": [
+        {
+          "id": 2791,
+          "value": "Classe des Anciens",
+          "color": "light-purple"
+        },
+        {
+          "id": 2789,
+          "value": "Disciple",
+          "color": "darker-pink"
+        }
+      ],
+      "Lieu": [
+        {
+          "id": 57,
+          "value": "Arimathie"
+        }
+      ],
+      "Description": "",
+      "Non présent": false,
+      "Lien": "https://www.maria-valtorta.org/Personnages/JosephArimathie.htm",
+      "ChapitreRef": [],
+      "ChapitrePresent": []
+    },
+    {
+      "id": 458,
+      "order": "87.00000000000000000000",
+      "Nom": "Joseph",
+      "Appellations": "",
+      "Genre": {
+        "id": 2786,
+        "value": "Homme",
+        "color": "light-brown"
+      },
+      "Attributs": [],
+      "Lieu": [
+        {
+          "id": 44,
+          "value": "Antigonéa"
+        }
+      ],
+      "Description": "",
+      "Non présent": false,
+      "Lien": "https://www.maria-valtorta.org/Personnages/PersonnagesRencontre02.htm#Syrie",
+      "ChapitreRef": [],
+      "ChapitrePresent": []
+    },
+    {
+      "id": 459,
+      "order": "88.00000000000000000000",
+      "Nom": "Joseph",
+      "Appellations": "",
+      "Genre": {
+        "id": 2786,
+        "value": "Homme",
+        "color": "light-brown"
+      },
+      "Attributs": [],
+      "Lieu": [],
+      "Description": "",
+      "Non présent": false,
+      "Lien": "https://www.maria-valtorta.org/Personnages/JosephAlphee.htm",
+      "ChapitreRef": [],
+      "ChapitrePresent": []
+    },
+    {
+      "id": 460,
+      "order": "89.00000000000000000000",
+      "Nom": "Joseph",
+      "Appellations": "Barnabé",
+      "Genre": {
+        "id": 2786,
+        "value": "Homme",
+        "color": "light-brown"
+      },
+      "Attributs": [
+        {
+          "id": 2789,
+          "value": "Disciple",
+          "color": "darker-pink"
+        }
+      ],
+      "Lieu": [],
+      "Description": "",
+      "Non présent": false,
+      "Lien": "https://www.maria-valtorta.org/Personnages/JosephBarnabe.htm",
+      "ChapitreRef": [],
+      "ChapitrePresent": []
+    },
+    {
+      "id": 461,
+      "order": "90.00000000000000000000",
+      "Nom": "Joseph",
+      "Appellations": "",
+      "Genre": {
+        "id": 2786,
+        "value": "Homme",
+        "color": "light-brown"
+      },
+      "Attributs": [
+        {
+          "id": 2788,
+          "value": "Berger de la Nativité",
+          "color": "purple"
+        }
+      ],
+      "Lieu": [
+        {
+          "id": 46,
+          "value": "Bethléem"
+        }
+      ],
+      "Description": "",
+      "Non présent": false,
+      "Lien": "https://www.maria-valtorta.org/Personnages/JosephBethleem.htm",
+      "ChapitreRef": [],
+      "ChapitrePresent": []
+    },
+    {
+      "id": 462,
+      "order": "91.00000000000000000000",
+      "Nom": "Judas Iscariote",
+      "Appellations": "",
+      "Genre": {
+        "id": 2786,
+        "value": "Homme",
+        "color": "light-brown"
+      },
+      "Attributs": [
+        {
+          "id": 2790,
+          "value": "Apôtre",
+          "color": "green"
+        }
+      ],
+      "Lieu": [],
+      "Description": "",
+      "Non présent": false,
+      "Lien": "https://www.maria-valtorta.org/Personnages/JudasKeriot.htm",
+      "ChapitreRef": [],
+      "ChapitrePresent": []
+    },
+    {
+      "id": 463,
+      "order": "92.00000000000000000000",
+      "Nom": "Judde",
+      "Appellations": "Thaddée",
+      "Genre": {
+        "id": 2786,
+        "value": "Homme",
+        "color": "light-brown"
+      },
+      "Attributs": [
+        {
+          "id": 2790,
+          "value": "Apôtre",
+          "color": "green"
+        }
+      ],
+      "Lieu": [],
+      "Description": "Thaddée est un mot araméen qui signifie \"courageux\".",
+      "Non présent": false,
+      "Lien": "https://www.maria-valtorta.org/Personnages/JudeAlphee.htm",
+      "ChapitreRef": [],
+      "ChapitrePresent": []
+    },
+    {
+      "id": 464,
+      "order": "93.00000000000000000000",
+      "Nom": "Lazare",
+      "Appellations": "",
+      "Genre": {
+        "id": 2786,
+        "value": "Homme",
+        "color": "light-brown"
+      },
+      "Attributs": [],
+      "Lieu": [
+        {
+          "id": 44,
+          "value": "Antigonéa"
+        }
+      ],
+      "Description": "",
+      "Non présent": false,
+      "Lien": "https://www.maria-valtorta.org/Personnages/PersonnagesRencontre02.htm#Syrie",
+      "ChapitreRef": [],
+      "ChapitrePresent": []
+    },
+    {
+      "id": 465,
+      "order": "94.00000000000000000000",
+      "Nom": "Lazare",
+      "Appellations": "",
+      "Genre": {
+        "id": 2786,
+        "value": "Homme",
+        "color": "light-brown"
+      },
+      "Attributs": [
+        {
+          "id": 2789,
+          "value": "Disciple",
+          "color": "darker-pink"
+        }
+      ],
+      "Lieu": [],
+      "Description": "De la haute société juive. Hérite des propriétés de Jérusalem.",
+      "Non présent": false,
+      "Lien": "https://www.maria-valtorta.org/Personnages/Lazare.htm",
+      "ChapitreRef": [],
+      "ChapitrePresent": []
+    },
+    {
+      "id": 466,
+      "order": "95.00000000000000000000",
+      "Nom": "Lévi",
+      "Appellations": "",
+      "Genre": {
+        "id": 2786,
+        "value": "Homme",
+        "color": "light-brown"
+      },
+      "Attributs": [
+        {
+          "id": 2789,
+          "value": "Disciple",
+          "color": "darker-pink"
+        },
+        {
+          "id": 2788,
+          "value": "Berger de la Nativité",
+          "color": "purple"
+        }
+      ],
+      "Lieu": [
+        {
+          "id": 46,
+          "value": "Bethléem"
+        }
+      ],
+      "Description": "",
+      "Non présent": false,
+      "Lien": "https://www.maria-valtorta.org/Personnages/LeviBethleem.htm",
+      "ChapitreRef": [],
+      "ChapitrePresent": []
+    },
+    {
+      "id": 467,
+      "order": "96.00000000000000000000",
+      "Nom": "Lévi",
+      "Appellations": "",
+      "Genre": {
+        "id": 2786,
+        "value": "Homme",
+        "color": "light-brown"
+      },
+      "Attributs": [],
+      "Lieu": [
+        {
+          "id": 37,
+          "value": "Bethsour"
+        }
+      ],
+      "Description": "",
+      "Non présent": false,
+      "Lien": null,
+      "ChapitreRef": [],
+      "ChapitrePresent": []
+    },
+    {
+      "id": 468,
+      "order": "97.00000000000000000000",
+      "Nom": "Lévi",
+      "Appellations": "",
+      "Genre": {
+        "id": 2786,
+        "value": "Homme",
+        "color": "light-brown"
+      },
+      "Attributs": [
+        {
+          "id": 2803,
+          "value": "Chef de Synagogue",
+          "color": "dark-yellow"
+        }
+      ],
+      "Lieu": [
+        {
+          "id": 55,
+          "value": "Nazareth"
+        }
+      ],
+      "Description": "",
+      "Non présent": false,
+      "Lien": "https://www.maria-valtorta.org/Personnages/LeviNazareth.htm",
+      "ChapitreRef": [],
+      "ChapitrePresent": []
+    },
+    {
+      "id": 469,
+      "order": "98.00000000000000000000",
+      "Nom": "Longin",
+      "Appellations": "",
+      "Genre": {
+        "id": 2786,
+        "value": "Homme",
+        "color": "light-brown"
+      },
+      "Attributs": [
+        {
+          "id": 2798,
+          "value": "Romain",
+          "color": "blue"
+        }
+      ],
+      "Lieu": [],
+      "Description": "Centurion",
+      "Non présent": false,
+      "Lien": "https://www.maria-valtorta.org/Personnages/Longin.htm",
+      "ChapitreRef": [],
+      "ChapitrePresent": []
+    },
+    {
+      "id": 470,
+      "order": "99.00000000000000000000",
+      "Nom": "Lydia",
+      "Appellations": "",
+      "Genre": {
+        "id": 2787,
+        "value": "Femme",
+        "color": "light-red"
+      },
+      "Attributs": [
+        {
+          "id": 2798,
+          "value": "Romain",
+          "color": "blue"
+        }
+      ],
+      "Lieu": [],
+      "Description": "",
+      "Non présent": false,
+      "Lien": "https://www.maria-valtorta.org/Personnages/Lidia.htm",
+      "ChapitreRef": [],
+      "ChapitrePresent": []
+    },
+    {
+      "id": 471,
+      "order": "100.00000000000000000000",
+      "Nom": "Malachie",
+      "Appellations": "",
+      "Genre": {
+        "id": 2786,
+        "value": "Homme",
+        "color": "light-brown"
+      },
+      "Attributs": [
+        {
+          "id": 2803,
+          "value": "Chef de Synagogue",
+          "color": "dark-yellow"
+        }
+      ],
+      "Lieu": [
+        {
+          "id": 56,
+          "value": "Ephraïm"
+        }
+      ],
+      "Description": "",
+      "Non présent": false,
+      "Lien": "https://www.maria-valtorta.org/Personnages/MalachieEphraim.htm",
+      "ChapitreRef": [],
+      "ChapitrePresent": []
+    },
+    {
+      "id": 472,
+      "order": "101.00000000000000000000",
+      "Nom": "Malthacé",
+      "Appellations": "",
+      "Genre": {
+        "id": 2787,
+        "value": "Femme",
+        "color": "light-red"
+      },
+      "Attributs": [
+        {
+          "id": 2797,
+          "value": "Samaritaine",
+          "color": "light-yellow"
+        }
+      ],
+      "Lieu": [],
+      "Description": "",
+      "Non présent": false,
+      "Lien": null,
+      "ChapitreRef": [],
+      "ChapitrePresent": []
+    },
+    {
+      "id": 473,
+      "order": "102.00000000000000000000",
+      "Nom": "Manaën",
+      "Appellations": "",
+      "Genre": {
+        "id": 2786,
+        "value": "Homme",
+        "color": "light-brown"
+      },
+      "Attributs": [
+        {
+          "id": 2789,
+          "value": "Disciple",
+          "color": "darker-pink"
+        }
+      ],
+      "Lieu": [],
+      "Description": "Officier royal",
+      "Non présent": false,
+      "Lien": "https://www.maria-valtorta.org/Personnages/Manaen.htm",
+      "ChapitreRef": [],
+      "ChapitrePresent": []
+    },
+    {
+      "id": 474,
+      "order": "103.00000000000000000000",
+      "Nom": "Marcelle",
+      "Appellations": "",
+      "Genre": {
+        "id": 2787,
+        "value": "Femme",
+        "color": "light-red"
+      },
+      "Attributs": [
+        {
+          "id": 2789,
+          "value": "Disciple",
+          "color": "darker-pink"
+        }
+      ],
+      "Lieu": [],
+      "Description": "",
+      "Non présent": false,
+      "Lien": "https://www.maria-valtorta.org/Personnages/Marcelle.htm",
+      "ChapitreRef": [],
+      "ChapitrePresent": []
+    },
+    {
+      "id": 475,
+      "order": "104.00000000000000000000",
+      "Nom": "Margziam",
+      "Appellations": "",
+      "Genre": {
+        "id": 2786,
+        "value": "Homme",
+        "color": "light-brown"
+      },
+      "Attributs": [],
+      "Lieu": [],
+      "Description": "",
+      "Non présent": false,
+      "Lien": "https://www.maria-valtorta.org/Personnages/Margziam.htm",
+      "ChapitreRef": [],
+      "ChapitrePresent": []
+    },
+    {
+      "id": 476,
+      "order": "105.00000000000000000000",
+      "Nom": "Marie",
+      "Appellations": "",
+      "Genre": {
+        "id": 2787,
+        "value": "Femme",
+        "color": "light-red"
+      },
+      "Attributs": [],
+      "Lieu": [],
+      "Description": "",
+      "Non présent": false,
+      "Lien": "https://www.maria-valtorta.org/Personnages/MarieChouza.htm",
+      "ChapitreRef": [],
+      "ChapitrePresent": []
+    },
+    {
+      "id": 477,
+      "order": "106.00000000000000000000",
+      "Nom": "Marie",
+      "Appellations": "",
+      "Genre": {
+        "id": 2787,
+        "value": "Femme",
+        "color": "light-red"
+      },
+      "Attributs": [
+        {
+          "id": 2789,
+          "value": "Disciple",
+          "color": "darker-pink"
+        }
+      ],
+      "Lieu": [],
+      "Description": "",
+      "Non présent": false,
+      "Lien": "https://www.maria-valtorta.org/Personnages/MariePhilippe.htm",
+      "ChapitreRef": [],
+      "ChapitrePresent": []
+    },
+    {
+      "id": 478,
+      "order": "107.00000000000000000000",
+      "Nom": "Marie",
+      "Appellations": "",
+      "Genre": {
+        "id": 2787,
+        "value": "Femme",
+        "color": "light-red"
+      },
+      "Attributs": [],
+      "Lieu": [
+        {
+          "id": 70,
+          "value": "Kériot"
+        }
+      ],
+      "Description": "",
+      "Non présent": false,
+      "Lien": "https://www.maria-valtorta.org/Personnages/MarieKeriot.htm",
+      "ChapitreRef": [],
+      "ChapitrePresent": []
+    },
+    {
+      "id": 479,
+      "order": "108.00000000000000000000",
+      "Nom": "Marie",
+      "Appellations": "Marie de Cléophas",
+      "Genre": {
+        "id": 2787,
+        "value": "Femme",
+        "color": "light-red"
+      },
+      "Attributs": [
+        {
+          "id": 2789,
+          "value": "Disciple",
+          "color": "darker-pink"
+        }
+      ],
+      "Lieu": [],
+      "Description": "",
+      "Non présent": false,
+      "Lien": "https://www.maria-valtorta.org/Personnages/MarieAlphee.htm",
+      "ChapitreRef": [],
+      "ChapitrePresent": []
+    },
+    {
+      "id": 480,
+      "order": "109.00000000000000000000",
+      "Nom": "Marie",
+      "Appellations": "Marie de Béthanie, Marie de Magdala, Marie Madeleine, Myriam, Miri",
+      "Genre": {
+        "id": 2787,
+        "value": "Femme",
+        "color": "light-red"
+      },
+      "Attributs": [
+        {
+          "id": 2789,
+          "value": "Disciple",
+          "color": "darker-pink"
+        }
+      ],
+      "Lieu": [
+        {
+          "id": 38,
+          "value": "Béthanie"
+        }
+      ],
+      "Description": "Hérite des propriétés de Magdala.",
+      "Non présent": false,
+      "Lien": "https://www.maria-valtorta.org/Personnages/MarieMagdala.htm",
+      "ChapitreRef": [],
+      "ChapitrePresent": []
+    },
+    {
+      "id": 481,
+      "order": "110.00000000000000000000",
+      "Nom": "Marthe",
+      "Appellations": "",
+      "Genre": {
+        "id": 2787,
+        "value": "Femme",
+        "color": "light-red"
+      },
+      "Attributs": [
+        {
+          "id": 2789,
+          "value": "Disciple",
+          "color": "darker-pink"
+        }
+      ],
+      "Lieu": [
+        {
+          "id": 38,
+          "value": "Béthanie"
+        }
+      ],
+      "Description": "Hérite des propriétés de Béthanie.",
+      "Non présent": false,
+      "Lien": "https://www.maria-valtorta.org/Personnages/Marthe.htm",
+      "ChapitreRef": [],
+      "ChapitrePresent": []
+    },
+    {
+      "id": 482,
+      "order": "111.00000000000000000000",
+      "Nom": "Mattathias",
+      "Appellations": "",
+      "Genre": {
+        "id": 2786,
+        "value": "Homme",
+        "color": "light-brown"
+      },
+      "Attributs": [
+        {
+          "id": 2804,
+          "value": "Scribe",
+          "color": "dark-blue"
+        }
+      ],
+      "Lieu": [],
+      "Description": "",
+      "Non présent": false,
+      "Lien": null,
+      "ChapitreRef": [],
+      "ChapitrePresent": []
+    },
+    {
+      "id": 483,
+      "order": "112.00000000000000000000",
+      "Nom": "Mattathias Sicule",
+      "Appellations": "",
+      "Genre": {
+        "id": 2786,
+        "value": "Homme",
+        "color": "light-brown"
+      },
+      "Attributs": [
+        {
+          "id": 2803,
+          "value": "Chef de Synagogue",
+          "color": "dark-yellow"
+        }
+      ],
+      "Lieu": [
+        {
+          "id": 54,
+          "value": "Jérusalem"
+        }
+      ],
+      "Description": "Synagogue des affranchis romains",
+      "Non présent": false,
+      "Lien": "https://www.maria-valtorta.org/Personnages/PersonnagesRencontre.htm",
+      "ChapitreRef": [],
+      "ChapitrePresent": []
+    },
+    {
+      "id": 484,
+      "order": "113.00000000000000000000",
+      "Nom": "Matthias",
+      "Appellations": "",
+      "Genre": {
+        "id": 2786,
+        "value": "Homme",
+        "color": "light-brown"
+      },
+      "Attributs": [
+        {
+          "id": 2803,
+          "value": "Chef de Synagogue",
+          "color": "dark-yellow"
+        }
+      ],
+      "Lieu": [
+        {
+          "id": 48,
+          "value": "Cédès"
+        }
+      ],
+      "Description": "",
+      "Non présent": false,
+      "Lien": "https://www.maria-valtorta.org/Personnages/MatthiasCedes.htm",
+      "ChapitreRef": [],
+      "ChapitrePresent": []
+    },
+    {
+      "id": 485,
+      "order": "114.00000000000000000000",
+      "Nom": "Matthias",
+      "Appellations": "Tobie",
+      "Genre": {
+        "id": 2786,
+        "value": "Homme",
+        "color": "light-brown"
+      },
+      "Attributs": [
+        {
+          "id": 2788,
+          "value": "Berger de la Nativité",
+          "color": "purple"
+        },
+        {
+          "id": 2790,
+          "value": "Apôtre",
+          "color": "green"
+        }
+      ],
+      "Lieu": [
+        {
+          "id": 64,
+          "value": "Liban"
+        }
+      ],
+      "Description": "Anciennement nommé Tobie.",
+      "Non présent": false,
+      "Lien": "https://www.maria-valtorta.org/Personnages/MatthiasBethleem.htm",
+      "ChapitreRef": [],
+      "ChapitrePresent": []
+    },
+    {
+      "id": 486,
+      "order": "115.00000000000000000000",
+      "Nom": "Matthias",
+      "Appellations": "",
+      "Genre": {
+        "id": 2786,
+        "value": "Homme",
+        "color": "light-brown"
+      },
+      "Attributs": [],
+      "Lieu": [],
+      "Description": "",
+      "Non présent": false,
+      "Lien": "https://www.maria-valtorta.org/Personnages/MarieChouza.htm",
+      "ChapitreRef": [],
+      "ChapitrePresent": []
+    },
+    {
+      "id": 487,
+      "order": "116.00000000000000000000",
+      "Nom": "Matthieu",
+      "Appellations": "Lévi",
+      "Genre": {
+        "id": 2786,
+        "value": "Homme",
+        "color": "light-brown"
+      },
+      "Attributs": [
+        {
+          "id": 2790,
+          "value": "Apôtre",
+          "color": "green"
+        }
+      ],
+      "Lieu": [],
+      "Description": "",
+      "Non présent": false,
+      "Lien": "https://www.maria-valtorta.org/Personnages/Matthieu.htm",
+      "ChapitreRef": [],
+      "ChapitrePresent": []
+    },
+    {
+      "id": 488,
+      "order": "117.00000000000000000000",
+      "Nom": "Maximin",
+      "Appellations": "",
+      "Genre": {
+        "id": 2786,
+        "value": "Homme",
+        "color": "light-brown"
+      },
+      "Attributs": [],
+      "Lieu": [
+        {
+          "id": 38,
+          "value": "Béthanie"
+        }
+      ],
+      "Description": "",
+      "Non présent": false,
+      "Lien": "https://www.maria-valtorta.org/Personnages/Maximin.htm",
+      "ChapitreRef": [],
+      "ChapitrePresent": []
+    },
+    {
+      "id": 489,
+      "order": "118.00000000000000000000",
+      "Nom": "Myriam",
+      "Appellations": "",
+      "Genre": {
+        "id": 2787,
+        "value": "Femme",
+        "color": "light-red"
+      },
+      "Attributs": [
+        {
+          "id": 2810,
+          "value": "Vierge consacrée",
+          "color": "dark-cyan"
+        },
+        {
+          "id": 2789,
+          "value": "Disciple",
+          "color": "darker-pink"
+        }
+      ],
+      "Lieu": [],
+      "Description": "",
+      "Non présent": false,
+      "Lien": "https://www.maria-valtorta.org/Personnages/MiryamJaire.htm",
+      "ChapitreRef": [],
+      "ChapitrePresent": []
+    },
+    {
+      "id": 490,
+      "order": "119.00000000000000000000",
+      "Nom": "Myrta",
+      "Appellations": "",
+      "Genre": {
+        "id": 2787,
+        "value": "Femme",
+        "color": "light-red"
+      },
+      "Attributs": [
+        {
+          "id": 2789,
+          "value": "Disciple",
+          "color": "darker-pink"
+        },
+        {
+          "id": 2812,
+          "value": "Veuve",
+          "color": "darker-gray"
+        }
+      ],
+      "Lieu": [
+        {
+          "id": 46,
+          "value": "Bethléem"
+        }
+      ],
+      "Description": "Bethléem de Galilée = Bethléem ?",
+      "Non présent": false,
+      "Lien": "https://www.maria-valtorta.org/Personnages/Myrta.htm",
+      "ChapitreRef": [],
+      "ChapitrePresent": []
+    },
+    {
+      "id": 491,
+      "order": "120.00000000000000000000",
+      "Nom": "Myrtica",
+      "Appellations": "",
+      "Genre": {
+        "id": 2787,
+        "value": "Femme",
+        "color": "light-red"
+      },
+      "Attributs": [],
+      "Lieu": [
+        {
+          "id": 44,
+          "value": "Antigonéa"
+        }
+      ],
+      "Description": "",
+      "Non présent": false,
+      "Lien": "https://www.maria-valtorta.org/Personnages/PersonnagesRencontre02.htm#Syrie",
+      "ChapitreRef": [],
+      "ChapitrePresent": []
+    },
+    {
+      "id": 492,
+      "order": "121.00000000000000000000",
+      "Nom": "Nahoum",
+      "Appellations": "",
+      "Genre": {
+        "id": 2786,
+        "value": "Homme",
+        "color": "light-brown"
+      },
+      "Attributs": [
+        {
+          "id": 2804,
+          "value": "Scribe",
+          "color": "dark-blue"
+        }
+      ],
+      "Lieu": [],
+      "Description": "",
+      "Non présent": false,
+      "Lien": "https://www.maria-valtorta.org/Personnages/Nahum.htm",
+      "ChapitreRef": [],
+      "ChapitrePresent": []
+    },
+    {
+      "id": 494,
+      "order": "123.00000000000000000000",
+      "Nom": "Nicodème",
+      "Appellations": "",
+      "Genre": {
+        "id": 2786,
+        "value": "Homme",
+        "color": "light-brown"
+      },
+      "Attributs": [
+        {
+          "id": 2791,
+          "value": "Classe des Anciens",
+          "color": "light-purple"
+        },
+        {
+          "id": 2789,
+          "value": "Disciple",
+          "color": "darker-pink"
+        }
+      ],
+      "Lieu": [],
+      "Description": "",
+      "Non présent": false,
+      "Lien": "https://www.maria-valtorta.org/Personnages/NicodemeSynhedriste.htm",
+      "ChapitreRef": [],
+      "ChapitrePresent": []
+    },
+    {
+      "id": 495,
+      "order": "124.00000000000000000000",
+      "Nom": "Nicolaï",
+      "Appellations": "",
+      "Genre": {
+        "id": 2786,
+        "value": "Homme",
+        "color": "light-brown"
+      },
+      "Attributs": [
+        {
+          "id": 2795,
+          "value": "Nazir",
+          "color": "dark-green"
+        }
+      ],
+      "Lieu": [
+        {
+          "id": 44,
+          "value": "Antigonéa"
+        }
+      ],
+      "Description": "",
+      "Non présent": false,
+      "Lien": "https://www.maria-valtorta.org/Personnages/Nicolai.htm",
+      "ChapitreRef": [],
+      "ChapitrePresent": []
+    },
+    {
+      "id": 496,
+      "order": "125.00000000000000000000",
+      "Nom": "Niké",
+      "Appellations": "Véronique",
+      "Genre": {
+        "id": 2787,
+        "value": "Femme",
+        "color": "light-red"
+      },
+      "Attributs": [
+        {
+          "id": 2789,
+          "value": "Disciple",
+          "color": "darker-pink"
+        }
+      ],
+      "Lieu": [
+        {
+          "id": 39,
+          "value": "Jéricho"
+        }
+      ],
+      "Description": "Elle sert depuis son domicile à Jéricho",
+      "Non présent": false,
+      "Lien": "https://www.maria-valtorta.org/Personnages/Nike.htm",
+      "ChapitreRef": [],
+      "ChapitrePresent": []
+    },
+    {
+      "id": 497,
+      "order": "126.00000000000000000000",
+      "Nom": "Noémie",
+      "Appellations": "",
+      "Genre": {
+        "id": 2787,
+        "value": "Femme",
+        "color": "light-red"
+      },
+      "Attributs": [
+        {
+          "id": 2794,
+          "value": "Prosélyte",
+          "color": "darker-cyan"
+        },
+        {
+          "id": 2789,
+          "value": "Disciple",
+          "color": "darker-pink"
+        }
+      ],
+      "Lieu": [
+        {
+          "id": 51,
+          "value": "Éphèse"
+        },
+        {
+          "id": 61,
+          "value": "Pergé"
+        },
+        {
+          "id": 62,
+          "value": "Turquie"
+        },
+        {
+          "id": 63,
+          "value": "Anatolie"
+        }
+      ],
+      "Description": "",
+      "Non présent": false,
+      "Lien": "https://www.maria-valtorta.org/Personnages/NoemiPerge.htm",
+      "ChapitreRef": [],
+      "ChapitrePresent": []
+    },
+    {
+      "id": 498,
+      "order": "127.00000000000000000000",
+      "Nom": "Noémie",
+      "Appellations": "",
+      "Genre": {
+        "id": 2787,
+        "value": "Femme",
+        "color": "light-red"
+      },
+      "Attributs": [
+        {
+          "id": 2789,
+          "value": "Disciple",
+          "color": "darker-pink"
+        }
+      ],
+      "Lieu": [
+        {
+          "id": 38,
+          "value": "Béthanie"
+        }
+      ],
+      "Description": "",
+      "Non présent": false,
+      "Lien": "https://www.maria-valtorta.org/Personnages/NoemiNourrice.htm",
+      "ChapitreRef": [],
+      "ChapitrePresent": []
+    },
+    {
+      "id": 499,
+      "order": "128.00000000000000000000",
+      "Nom": "Paul",
+      "Appellations": "Saül de Tarse",
+      "Genre": {
+        "id": 2786,
+        "value": "Homme",
+        "color": "light-brown"
+      },
+      "Attributs": [
+        {
+          "id": 2790,
+          "value": "Apôtre",
+          "color": "green"
+        }
+      ],
+      "Lieu": [],
+      "Description": "Élève au centre rabbinique",
+      "Non présent": false,
+      "Lien": "https://www.maria-valtorta.org/Personnages/SaulPaul.htm",
+      "ChapitreRef": [],
+      "ChapitrePresent": []
+    },
+    {
+      "id": 500,
+      "order": "129.00000000000000000000",
+      "Nom": "Philippe",
+      "Appellations": "",
+      "Genre": {
+        "id": 2786,
+        "value": "Homme",
+        "color": "light-brown"
+      },
+      "Attributs": [],
+      "Lieu": [
+        {
+          "id": 47,
+          "value": "Canatha"
+        }
+      ],
+      "Description": "",
+      "Non présent": false,
+      "Lien": "https://www.maria-valtorta.org/Personnages/PhilippeCanata.htm",
+      "ChapitreRef": [],
+      "ChapitrePresent": []
+    },
+    {
+      "id": 501,
+      "order": "130.00000000000000000000",
+      "Nom": "Philippe ben Jacius",
+      "Appellations": "",
+      "Genre": {
+        "id": 2786,
+        "value": "Homme",
+        "color": "light-brown"
+      },
+      "Attributs": [
+        {
+          "id": 2791,
+          "value": "Classe des Anciens",
+          "color": "light-purple"
+        }
+      ],
+      "Lieu": [],
+      "Description": "",
+      "Non présent": false,
+      "Lien": null,
+      "ChapitreRef": [],
+      "ChapitrePresent": []
+    },
+    {
+      "id": 502,
+      "order": "131.00000000000000000000",
+      "Nom": "Philippe",
+      "Appellations": "",
+      "Genre": {
+        "id": 2786,
+        "value": "Homme",
+        "color": "light-brown"
+      },
+      "Attributs": [
+        {
+          "id": 2790,
+          "value": "Apôtre",
+          "color": "green"
+        }
+      ],
+      "Lieu": [],
+      "Description": "",
+      "Non présent": false,
+      "Lien": "https://www.maria-valtorta.org/Personnages/PhilippeApotre.htm",
+      "ChapitreRef": [],
+      "ChapitrePresent": []
+    },
+    {
+      "id": 503,
+      "order": "132.00000000000000000000",
+      "Nom": "Philippe",
+      "Appellations": "",
+      "Genre": {
+        "id": 2786,
+        "value": "Homme",
+        "color": "light-brown"
+      },
+      "Attributs": [],
+      "Lieu": [
+        {
+          "id": 43,
+          "value": "Alexandroscène de Phénicie"
+        }
+      ],
+      "Description": "",
+      "Non présent": false,
+      "Lien": "https://www.maria-valtorta.org/Personnages/PhilippeAlexandroscene.htm",
+      "ChapitreRef": [],
+      "ChapitrePresent": []
+    },
+    {
+      "id": 504,
+      "order": "133.00000000000000000000",
+      "Nom": "Philippe",
+      "Appellations": "",
+      "Genre": {
+        "id": 2786,
+        "value": "Homme",
+        "color": "light-brown"
+      },
+      "Attributs": [],
+      "Lieu": [
+        {
+          "id": 44,
+          "value": "Antigonéa"
+        }
+      ],
+      "Description": "",
+      "Non présent": false,
+      "Lien": "https://www.maria-valtorta.org/Personnages/PhilippeAntioche.htm",
+      "ChapitreRef": [],
+      "ChapitrePresent": []
+    },
+    {
+      "id": 505,
+      "order": "134.00000000000000000000",
+      "Nom": "Photinaï",
+      "Appellations": "",
+      "Genre": {
+        "id": 2787,
+        "value": "Femme",
+        "color": "light-red"
+      },
+      "Attributs": [
+        {
+          "id": 2811,
+          "value": "Femme ermite",
+          "color": "cyan"
+        },
+        {
+          "id": 2789,
+          "value": "Disciple",
+          "color": "darker-pink"
+        }
+      ],
+      "Lieu": [
+        {
+          "id": 58,
+          "value": "Samarie"
+        }
+      ],
+      "Description": "",
+      "Non présent": false,
+      "Lien": "https://www.maria-valtorta.org/Personnages/Fotinai.htm",
+      "ChapitreRef": [],
+      "ChapitrePresent": []
+    },
+    {
+      "id": 506,
+      "order": "135.00000000000000000000",
+      "Nom": "Pierre",
+      "Appellations": "Simon-Pierre, Simon",
+      "Genre": {
+        "id": 2786,
+        "value": "Homme",
+        "color": "light-brown"
+      },
+      "Attributs": [
+        {
+          "id": 2790,
+          "value": "Apôtre",
+          "color": "green"
+        }
+      ],
+      "Lieu": [],
+      "Description": "",
+      "Non présent": false,
+      "Lien": "https://www.maria-valtorta.org/Personnages/Pierre.htm",
+      "ChapitreRef": [],
+      "ChapitrePresent": []
+    },
+    {
+      "id": 507,
+      "order": "136.00000000000000000000",
+      "Nom": "Plautina",
+      "Appellations": "",
+      "Genre": {
+        "id": 2787,
+        "value": "Femme",
+        "color": "light-red"
+      },
+      "Attributs": [
+        {
+          "id": 2798,
+          "value": "Romain",
+          "color": "blue"
+        }
+      ],
+      "Lieu": [],
+      "Description": "Aristocrate romaine",
+      "Non présent": false,
+      "Lien": "https://www.maria-valtorta.org/Personnages/Plautina.htm",
+      "ChapitreRef": [],
+      "ChapitrePresent": []
+    },
+    {
+      "id": 508,
+      "order": "137.00000000000000000000",
+      "Nom": "Ponce Pilate",
+      "Appellations": "",
+      "Genre": {
+        "id": 2786,
+        "value": "Homme",
+        "color": "light-brown"
+      },
+      "Attributs": [
+        {
+          "id": 2798,
+          "value": "Romain",
+          "color": "blue"
+        }
+      ],
+      "Lieu": [
+        {
+          "id": 45,
+          "value": "Judée"
+        }
+      ],
+      "Description": "Gouverneur romain, préfet de Judée, proconsul",
+      "Non présent": false,
+      "Lien": "https://www.maria-valtorta.org/Personnages/PoncePilate.htm",
+      "ChapitreRef": [],
+      "ChapitrePresent": []
+    },
+    {
+      "id": 509,
+      "order": "138.00000000000000000000",
+      "Nom": "Porphyrée",
+      "Appellations": "",
+      "Genre": {
+        "id": 2787,
+        "value": "Femme",
+        "color": "light-red"
+      },
+      "Attributs": [
+        {
+          "id": 2789,
+          "value": "Disciple",
+          "color": "darker-pink"
+        }
+      ],
+      "Lieu": [],
+      "Description": "",
+      "Non présent": false,
+      "Lien": "https://www.maria-valtorta.org/Personnages/Porphyree.htm",
+      "ChapitreRef": [],
+      "ChapitrePresent": []
+    },
+    {
+      "id": 510,
+      "order": "139.00000000000000000000",
+      "Nom": "Ptolmaï",
+      "Appellations": "",
+      "Genre": {
+        "id": 2786,
+        "value": "Homme",
+        "color": "light-brown"
+      },
+      "Attributs": [],
+      "Lieu": [
+        {
+          "id": 44,
+          "value": "Antigonéa"
+        }
+      ],
+      "Description": "",
+      "Non présent": false,
+      "Lien": "https://www.maria-valtorta.org/Personnages/Ptolmai.htm",
+      "ChapitreRef": [],
+      "ChapitrePresent": []
+    },
+    {
+      "id": 511,
+      "order": "140.00000000000000000000",
+      "Nom": "Salomé",
+      "Appellations": "",
+      "Genre": {
+        "id": 2787,
+        "value": "Femme",
+        "color": "light-red"
+      },
+      "Attributs": [],
+      "Lieu": [],
+      "Description": "La princesse",
+      "Non présent": false,
+      "Lien": "https://www.maria-valtorta.org/Personnages/SalomePrincesse.htm",
+      "ChapitreRef": [],
+      "ChapitrePresent": []
+    },
+    {
+      "id": 512,
+      "order": "141.00000000000000000000",
+      "Nom": "Salomé",
+      "Appellations": "Marie Salomé",
+      "Genre": {
+        "id": 2787,
+        "value": "Femme",
+        "color": "light-red"
+      },
+      "Attributs": [
+        {
+          "id": 2789,
+          "value": "Disciple",
+          "color": "darker-pink"
+        }
+      ],
+      "Lieu": [],
+      "Description": "",
+      "Non présent": false,
+      "Lien": "https://www.maria-valtorta.org/Personnages/MarieSalome.htm",
+      "ChapitreRef": [],
+      "ChapitrePresent": []
+    },
+    {
+      "id": 513,
+      "order": "142.00000000000000000000",
+      "Nom": "Salomé",
+      "Appellations": "",
+      "Genre": {
+        "id": 2787,
+        "value": "Femme",
+        "color": "light-red"
+      },
+      "Attributs": [
+        {
+          "id": 2789,
+          "value": "Disciple",
+          "color": "darker-pink"
+        }
+      ],
+      "Lieu": [],
+      "Description": "Cousine, par alliance, de Jésus",
+      "Non présent": false,
+      "Lien": "https://www.maria-valtorta.org/Personnages/SalomeSimon.htm",
+      "ChapitreRef": [],
+      "ChapitrePresent": []
+    },
+    {
+      "id": 514,
+      "order": "143.00000000000000000000",
+      "Nom": "Salomon",
+      "Appellations": "",
+      "Genre": {
+        "id": 2786,
+        "value": "Homme",
+        "color": "light-brown"
+      },
+      "Attributs": [
+        {
+          "id": 2933,
+          "value": "Passeur",
+          "color": "darker-brown"
+        }
+      ],
+      "Lieu": [
+        {
+          "id": 39,
+          "value": "Jéricho"
+        }
+      ],
+      "Description": "",
+      "Non présent": false,
+      "Lien": "https://www.maria-valtorta.org/Personnages/Salomon.htm",
+      "ChapitreRef": [],
+      "ChapitrePresent": []
+    },
+    {
+      "id": 515,
+      "order": "144.00000000000000000000",
+      "Nom": "Samuel",
+      "Appellations": "",
+      "Genre": {
+        "id": 2786,
+        "value": "Homme",
+        "color": "light-brown"
+      },
+      "Attributs": [
+        {
+          "id": 2788,
+          "value": "Berger de la Nativité",
+          "color": "purple"
+        }
+      ],
+      "Lieu": [
+        {
+          "id": 46,
+          "value": "Bethléem"
+        }
+      ],
+      "Description": "",
+      "Non présent": false,
+      "Lien": "https://www.maria-valtorta.org/Personnages/SamuelBethleem.htm",
+      "ChapitreRef": [],
+      "ChapitrePresent": []
+    },
+    {
+      "id": 516,
+      "order": "145.00000000000000000000",
+      "Nom": "Samuel",
+      "Appellations": "",
+      "Genre": {
+        "id": 2786,
+        "value": "Homme",
+        "color": "light-brown"
+      },
+      "Attributs": [],
+      "Lieu": [],
+      "Description": "Le fiancé d'Annalia devenu meurtrier",
+      "Non présent": false,
+      "Lien": "https://www.maria-valtorta.org/Personnages/SamuelAnnalia.htm",
+      "ChapitreRef": [],
+      "ChapitrePresent": []
+    },
+    {
+      "id": 517,
+      "order": "146.00000000000000000000",
+      "Nom": "Sara",
+      "Appellations": "",
+      "Genre": {
+        "id": 2787,
+        "value": "Femme",
+        "color": "light-red"
+      },
+      "Attributs": [
+        {
+          "id": 2810,
+          "value": "Vierge consacrée",
+          "color": "dark-cyan"
+        },
+        {
+          "id": 2789,
+          "value": "Disciple",
+          "color": "darker-pink"
+        }
+      ],
+      "Lieu": [
+        {
+          "id": 54,
+          "value": "Jérusalem"
+        }
+      ],
+      "Description": "",
+      "Non présent": false,
+      "Lien": "https://www.maria-valtorta.org/Personnages/SaraJerusalem.htm",
+      "ChapitreRef": [],
+      "ChapitrePresent": []
+    },
+    {
+      "id": 518,
+      "order": "147.00000000000000000000",
+      "Nom": "Sara",
+      "Appellations": "",
+      "Genre": {
+        "id": 2787,
+        "value": "Femme",
+        "color": "light-red"
+      },
+      "Attributs": [
+        {
+          "id": 2789,
+          "value": "Disciple",
+          "color": "darker-pink"
+        }
+      ],
+      "Lieu": [
+        {
+          "id": 60,
+          "value": "Aféca"
+        }
+      ],
+      "Description": "",
+      "Non présent": false,
+      "Lien": "https://www.maria-valtorta.org/Personnages/SaraAfeca.htm",
+      "ChapitreRef": [],
+      "ChapitrePresent": []
+    },
+    {
+      "id": 519,
+      "order": "148.00000000000000000000",
+      "Nom": "Sara",
+      "Appellations": "",
+      "Genre": {
+        "id": 2787,
+        "value": "Femme",
+        "color": "light-red"
+      },
+      "Attributs": [
+        {
+          "id": 2812,
+          "value": "Veuve",
+          "color": "darker-gray"
+        },
+        {
+          "id": 2789,
+          "value": "Disciple",
+          "color": "darker-pink"
+        }
+      ],
+      "Lieu": [
+        {
+          "id": 38,
+          "value": "Béthanie"
+        }
+      ],
+      "Description": "",
+      "Non présent": false,
+      "Lien": "https://www.maria-valtorta.org/Personnages/SaraBethanie.htm",
+      "ChapitreRef": [],
+      "ChapitrePresent": []
+    },
+    {
+      "id": 520,
+      "order": "149.00000000000000000000",
+      "Nom": "Scéva",
+      "Appellations": "",
+      "Genre": {
+        "id": 2786,
+        "value": "Homme",
+        "color": "light-brown"
+      },
+      "Attributs": [
+        {
+          "id": 2807,
+          "value": "Sanhédriste",
+          "color": "deep-dark-green"
+        }
+      ],
+      "Lieu": [],
+      "Description": "",
+      "Non présent": false,
+      "Lien": "https://www.maria-valtorta.org/Personnages/Sceva.htm",
+      "ChapitreRef": [],
+      "ChapitrePresent": []
+    },
+    {
+      "id": 521,
+      "order": "150.00000000000000000000",
+      "Nom": "Siméon",
+      "Appellations": "",
+      "Genre": {
+        "id": 2786,
+        "value": "Homme",
+        "color": "light-brown"
+      },
+      "Attributs": [
+        {
+          "id": 2804,
+          "value": "Scribe",
+          "color": "dark-blue"
+        }
+      ],
+      "Lieu": [],
+      "Description": "",
+      "Non présent": false,
+      "Lien": "https://www.maria-valtorta.org/Personnages/SimeonGamaliel.htm",
+      "ChapitreRef": [],
+      "ChapitrePresent": []
+    },
+    {
+      "id": 522,
+      "order": "151.00000000000000000000",
+      "Nom": "Siméon",
+      "Appellations": "",
+      "Genre": {
+        "id": 2786,
+        "value": "Homme",
+        "color": "light-brown"
+      },
+      "Attributs": [
+        {
+          "id": 2788,
+          "value": "Berger de la Nativité",
+          "color": "purple"
+        },
+        {
+          "id": 2789,
+          "value": "Disciple",
+          "color": "darker-pink"
+        }
+      ],
+      "Lieu": [
+        {
+          "id": 46,
+          "value": "Bethléem"
+        },
+        {
+          "id": 64,
+          "value": "Liban"
+        }
+      ],
+      "Description": "",
+      "Non présent": false,
+      "Lien": "https://www.maria-valtorta.org/Personnages/SimeonBethleem.htm",
+      "ChapitreRef": [],
+      "ChapitrePresent": []
+    },
+    {
+      "id": 523,
+      "order": "152.00000000000000000000",
+      "Nom": "Siméon",
+      "Appellations": "Simon",
+      "Genre": {
+        "id": 2786,
+        "value": "Homme",
+        "color": "light-brown"
+      },
+      "Attributs": [],
+      "Lieu": [],
+      "Description": "",
+      "Non présent": false,
+      "Lien": "https://www.maria-valtorta.org/Personnages/SimonAlphee.htm",
+      "ChapitreRef": [],
+      "ChapitrePresent": []
+    },
+    {
+      "id": 524,
+      "order": "153.00000000000000000000",
+      "Nom": "Simon",
+      "Appellations": "",
+      "Genre": {
+        "id": 2786,
+        "value": "Homme",
+        "color": "light-brown"
+      },
+      "Attributs": [
+        {
+          "id": 2789,
+          "value": "Disciple",
+          "color": "darker-pink"
+        },
+        {
+          "id": 2934,
+          "value": "Pèlerin d'Emmaüs",
+          "color": "dark-yellow"
+        }
+      ],
+      "Lieu": [
+        {
+          "id": 53,
+          "value": "Emmaüs"
+        }
+      ],
+      "Description": "Pèlerin d'Emmaüs",
+      "Non présent": false,
+      "Lien": "https://www.maria-valtorta.org/Personnages/SimonEmmaus.htm",
+      "ChapitreRef": [],
+      "ChapitrePresent": []
+    },
+    {
+      "id": 525,
+      "order": "154.00000000000000000000",
+      "Nom": "Simon ben Boëthos",
+      "Appellations": "",
+      "Genre": {
+        "id": 2786,
+        "value": "Homme",
+        "color": "light-brown"
+      },
+      "Attributs": [
+        {
+          "id": 2805,
+          "value": "Ancien Grand-Prêtre",
+          "color": "darker-brown"
+        }
+      ],
+      "Lieu": [],
+      "Description": "",
+      "Non présent": false,
+      "Lien": "https://www.maria-valtorta.org/Personnages/SimonCanthera.htm",
+      "ChapitreRef": [],
+      "ChapitrePresent": []
+    },
+    {
+      "id": 526,
+      "order": "155.00000000000000000000",
+      "Nom": "Simon de Carmit",
+      "Appellations": "",
+      "Genre": {
+        "id": 2786,
+        "value": "Homme",
+        "color": "light-brown"
+      },
+      "Attributs": [
+        {
+          "id": 2805,
+          "value": "Ancien Grand-Prêtre",
+          "color": "darker-brown"
+        }
+      ],
+      "Lieu": [],
+      "Description": "",
+      "Non présent": false,
+      "Lien": "https://www.maria-valtorta.org/Personnages/SimonCarmit.htm",
+      "ChapitreRef": [],
+      "ChapitrePresent": []
+    },
+    {
+      "id": 527,
+      "order": "156.00000000000000000000",
+      "Nom": "Simon le zélote",
+      "Appellations": "Simon le cananéen",
+      "Genre": {
+        "id": 2786,
+        "value": "Homme",
+        "color": "light-brown"
+      },
+      "Attributs": [
+        {
+          "id": 2790,
+          "value": "Apôtre",
+          "color": "green"
+        }
+      ],
+      "Lieu": [
+        {
+          "id": 40,
+          "value": "Cana"
+        }
+      ],
+      "Description": "",
+      "Non présent": false,
+      "Lien": "https://www.maria-valtorta.org/Personnages/SimonZelote.htm",
+      "ChapitreRef": [],
+      "ChapitrePresent": []
+    },
+    {
+      "id": 528,
+      "order": "157.00000000000000000000",
+      "Nom": "Simon",
+      "Appellations": "",
+      "Genre": {
+        "id": 2786,
+        "value": "Homme",
+        "color": "light-brown"
+      },
+      "Attributs": [],
+      "Lieu": [
+        {
+          "id": 70,
+          "value": "Kériot"
+        }
+      ],
+      "Description": "",
+      "Non présent": true,
+      "Lien": "https://www.maria-valtorta.org/Personnages/SimonKeriot.htm",
+      "ChapitreRef": [],
+      "ChapitrePresent": []
+    },
+    {
+      "id": 529,
+      "order": "158.00000000000000000000",
+      "Nom": "Suzanne",
+      "Appellations": "",
+      "Genre": {
+        "id": 2787,
+        "value": "Femme",
+        "color": "light-red"
+      },
+      "Attributs": [
+        {
+          "id": 2789,
+          "value": "Disciple",
+          "color": "darker-pink"
+        }
+      ],
+      "Lieu": [
+        {
+          "id": 40,
+          "value": "Cana"
+        }
+      ],
+      "Description": "Épouse des noces de Cana",
+      "Non présent": false,
+      "Lien": "https://www.maria-valtorta.org/Personnages/SuzanneCana.htm",
+      "ChapitreRef": [],
+      "ChapitrePresent": []
+    },
+    {
+      "id": 530,
+      "order": "159.00000000000000000000",
+      "Nom": "Syntica",
+      "Appellations": "",
+      "Genre": {
+        "id": 2787,
+        "value": "Femme",
+        "color": "light-red"
+      },
+      "Attributs": [
+        {
+          "id": 2789,
+          "value": "Disciple",
+          "color": "darker-pink"
+        }
+      ],
+      "Lieu": [
+        {
+          "id": 41,
+          "value": "Antioche de Syrie"
+        }
+      ],
+      "Description": "Disciple réfugiée à Antioche",
+      "Non présent": false,
+      "Lien": "https://www.maria-valtorta.org/Personnages/Sintica.htm",
+      "ChapitreRef": [],
+      "ChapitrePresent": []
+    },
+    {
+      "id": 531,
+      "order": "160.00000000000000000000",
+      "Nom": "Théochérie",
+      "Appellations": "",
+      "Genre": {
+        "id": 2786,
+        "value": "Homme",
+        "color": "light-brown"
+      },
+      "Attributs": [],
+      "Lieu": [
+        {
+          "id": 44,
+          "value": "Antigonéa"
+        }
+      ],
+      "Description": "",
+      "Non présent": false,
+      "Lien": null,
+      "ChapitreRef": [],
+      "ChapitrePresent": []
+    },
+    {
+      "id": 532,
+      "order": "161.00000000000000000000",
+      "Nom": "Théophile",
+      "Appellations": "",
+      "Genre": {
+        "id": 2786,
+        "value": "Homme",
+        "color": "light-brown"
+      },
+      "Attributs": [],
+      "Lieu": [
+        {
+          "id": 41,
+          "value": "Antioche de Syrie"
+        }
+      ],
+      "Description": "Gouverneur",
+      "Non présent": true,
+      "Lien": "https://www.maria-valtorta.org/Personnages/Theophile.htm",
+      "ChapitreRef": [],
+      "ChapitrePresent": []
+    },
+    {
+      "id": 533,
+      "order": "162.00000000000000000000",
+      "Nom": "Thomas",
+      "Appellations": "Didyme",
+      "Genre": {
+        "id": 2786,
+        "value": "Homme",
+        "color": "light-brown"
+      },
+      "Attributs": [
+        {
+          "id": 2790,
+          "value": "Apôtre",
+          "color": "green"
+        }
+      ],
+      "Lieu": [],
+      "Description": "",
+      "Non présent": false,
+      "Lien": "https://www.maria-valtorta.org/Personnages/Thomas.htm",
+      "ChapitreRef": [],
+      "ChapitrePresent": []
+    },
+    {
+      "id": 534,
+      "order": "163.00000000000000000000",
+      "Nom": "Timon d'Aëra",
+      "Appellations": "",
+      "Genre": {
+        "id": 2786,
+        "value": "Homme",
+        "color": "light-brown"
+      },
+      "Attributs": [
+        {
+          "id": 2803,
+          "value": "Chef de Synagogue",
+          "color": "dark-yellow"
+        },
+        {
+          "id": 2789,
+          "value": "Disciple",
+          "color": "darker-pink"
+        }
+      ],
+      "Lieu": [
+        {
+          "id": 50,
+          "value": "La Belle Eau"
+        }
+      ],
+      "Description": "",
+      "Non présent": false,
+      "Lien": "https://www.maria-valtorta.org/Personnages/TimonAera.htm",
+      "ChapitreRef": [],
+      "ChapitrePresent": []
+    },
+    {
+      "id": 535,
+      "order": "164.00000000000000000000",
+      "Nom": "Tolmaï",
+      "Appellations": "",
+      "Genre": {
+        "id": 2786,
+        "value": "Homme",
+        "color": "light-brown"
+      },
+      "Attributs": [
+        {
+          "id": 2807,
+          "value": "Sanhédriste",
+          "color": "deep-dark-green"
+        }
+      ],
+      "Lieu": [],
+      "Description": "",
+      "Non présent": false,
+      "Lien": "https://www.maria-valtorta.org/Personnages/TolmeSynhedriste.htm",
+      "ChapitreRef": [],
+      "ChapitrePresent": []
+    },
+    {
+      "id": 536,
+      "order": "165.00000000000000000000",
+      "Nom": "Valéria",
+      "Appellations": "",
+      "Genre": {
+        "id": 2787,
+        "value": "Femme",
+        "color": "light-red"
+      },
+      "Attributs": [
+        {
+          "id": 2798,
+          "value": "Romain",
+          "color": "blue"
+        },
+        {
+          "id": 2789,
+          "value": "Disciple",
+          "color": "darker-pink"
+        }
+      ],
+      "Lieu": [],
+      "Description": "",
+      "Non présent": false,
+      "Lien": "https://www.maria-valtorta.org/Personnages/Valeria.htm",
+      "ChapitreRef": [],
+      "ChapitrePresent": []
+    },
+    {
+      "id": 537,
+      "order": "166.00000000000000000000",
+      "Nom": "Vierge-Marie",
+      "Appellations": "",
+      "Genre": {
+        "id": 2787,
+        "value": "Femme",
+        "color": "light-red"
+      },
+      "Attributs": [],
+      "Lieu": [],
+      "Description": "",
+      "Non présent": false,
+      "Lien": "https://www.maria-valtorta.org/Personnages/MarieVierge.htm",
+      "ChapitreRef": [],
+      "ChapitrePresent": []
+    },
+    {
+      "id": 538,
+      "order": "167.00000000000000000000",
+      "Nom": "Zacharie",
+      "Appellations": "",
+      "Genre": {
+        "id": 2786,
+        "value": "Homme",
+        "color": "light-brown"
+      },
+      "Attributs": [
+        {
+          "id": 2792,
+          "value": "Prêtre",
+          "color": "dark-gray"
+        }
+      ],
+      "Lieu": [
+        {
+          "id": 42,
+          "value": "Hébron"
+        }
+      ],
+      "Description": "Prêtre du temple",
+      "Non présent": false,
+      "Lien": "https://www.maria-valtorta.org/Personnages/ZacharieHebron.htm",
+      "ChapitreRef": [],
+      "ChapitrePresent": []
+    },
+    {
+      "id": 539,
+      "order": "168.00000000000000000000",
+      "Nom": "Zachée",
+      "Appellations": "",
+      "Genre": {
+        "id": 2786,
+        "value": "Homme",
+        "color": "light-brown"
+      },
+      "Attributs": [
+        {
+          "id": 2799,
+          "value": "Chef des publicains",
+          "color": "deep-dark-orange"
+        }
+      ],
+      "Lieu": [],
+      "Description": "",
+      "Non présent": false,
+      "Lien": "https://www.maria-valtorta.org/Personnages/ZacheeJericho.htm",
+      "ChapitreRef": [],
+      "ChapitrePresent": []
+    },
+    {
+      "id": 540,
+      "order": "169.00000000000000000000",
+      "Nom": "Zébédée",
+      "Appellations": "",
+      "Genre": {
+        "id": 2786,
+        "value": "Homme",
+        "color": "light-brown"
+      },
+      "Attributs": [],
+      "Lieu": [],
+      "Description": "",
+      "Non présent": false,
+      "Lien": "https://www.maria-valtorta.org/Personnages/Zebedee.htm",
+      "ChapitreRef": [],
+      "ChapitrePresent": []
+    },
+    {
+      "id": 541,
+      "order": "170.00000000000000000000",
+      "Nom": "Saul",
+      "Appellations": "",
+      "Genre": {
+        "id": 2786,
+        "value": "Homme",
+        "color": "light-brown"
+      },
+      "Attributs": [],
+      "Lieu": [
+        {
+          "id": 70,
+          "value": "Kériot"
+        }
+      ],
+      "Description": "Vieillard et juste qui meurt dans les bras de Jésus juste après avoir été de l'Esprit de Dieu.",
+      "Non présent": false,
+      "Lien": "https://www.maria-valtorta.org/Personnages/SaulKeriot.htm",
+      "ChapitreRef": [],
+      "ChapitrePresent": [
+        {
+          "id": 3,
+          "value": "78"
+        }
+      ]
+    }
+  ]
+}

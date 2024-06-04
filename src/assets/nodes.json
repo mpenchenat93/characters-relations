@@ -1,0 +1,242 @@
+[
+  {
+    "id": 1,
+    "label": "Adam",
+    "description": "Adam est considéré comme le premier homme créé par Dieu selon la Bible. Il a été formé à partir de la poussière de la terre. Adam a vécu dans le jardin d'Éden avant de commettre le péché originel. Il est le père de Caïn, Abel, Seth et plusieurs autres enfants.",
+    "link": "https://en.wikipedia.org/wiki/Adam"
+  },
+  {
+    "id": 2,
+    "label": "Eve",
+    "description": "Ève est la première femme créée par Dieu pour être la compagne d'Adam. Elle a été formée à partir d'une côte d'Adam. Ève a été tentée par le serpent et a mangé le fruit défendu, entraînant le péché originel. Elle est la mère de Caïn, Abel, Seth et plusieurs autres enfants.",
+    "link": "https://en.wikipedia.org/wiki/Eve"
+  },
+  {
+    "id": 3,
+    "label": "Cain",
+    "description": "Caïn est le premier fils d'Adam et Ève. Il est connu pour avoir tué son frère Abel par jalousie. Après le meurtre, Caïn a été maudit et exilé par Dieu. Il a construit une ville et a fondé une lignée distincte.",
+    "link": "https://en.wikipedia.org/wiki/Cain_and_Abel"
+  },
+  {
+    "id": 4,
+    "label": "Abel",
+    "description": "Abel est le deuxième fils d'Adam et Ève. Il était berger et offrait des sacrifices à Dieu. Son offrande a été acceptée par Dieu, ce qui a suscité la jalousie de Caïn. Il a été tué par Caïn dans un accès de rage.",
+    "link": "https://en.wikipedia.org/wiki/Cain_and_Abel"
+  },
+  {
+    "id": 5,
+    "label": "Seth",
+    "description": "Seth est le troisième fils d'Adam et Ève, né après le meurtre d'Abel. Il est considéré comme l'ancêtre de Noé. Seth a été vu comme un remplaçant pour Abel. Il a continué la lignée pieuse de ses parents.",
+    "link": "https://en.wikipedia.org/wiki/Seth"
+  },
+  {
+    "id": 6,
+    "label": "Enosh",
+    "description": "Enosh est le fils de Seth et le petit-fils d'Adam. Il est né lorsque Seth avait 105 ans. Pendant son temps, les gens ont commencé à invoquer le nom du Seigneur. Enosh est un ancêtre de Noé.",
+    "link": "https://en.wikipedia.org/wiki/Enos_(biblical_figure)"
+  },
+  {
+    "id": 7,
+    "label": "Kenan",
+    "description": "Kenan est le fils d'Enosh et l'arrière-petit-fils d'Adam. Il est né lorsque Enosh avait 90 ans. Kenan a eu plusieurs enfants, dont Mahalalel. Il est un ancêtre de Noé.",
+    "link": "https://en.wikipedia.org/wiki/Kenan"
+  },
+  {
+    "id": 8,
+    "label": "Mahalalel",
+    "description": "Mahalalel est le fils de Kenan et un descendant d'Adam. Il est né lorsque Kenan avait 70 ans. Mahalalel a eu plusieurs enfants, dont Jared. Il est un ancêtre de Noé.",
+    "link": "https://en.wikipedia.org/wiki/Mahalalel"
+  },
+  {
+    "id": 9,
+    "label": "Jared",
+    "description": "Jared est le fils de Mahalalel et un descendant d'Adam. Il est né lorsque Mahalalel avait 65 ans. Jared a eu plusieurs enfants, dont Enoch. Il est un ancêtre de Noé.",
+    "link": "https://en.wikipedia.org/wiki/Jared_(biblical_figure)"
+  },
+  {
+    "id": 10,
+    "label": "Enoch",
+    "description": "Enoch est le fils de Jared et un descendant d'Adam. Il est connu pour avoir 'marché avec Dieu'. Enoch a été enlevé au ciel sans mourir. Il est un ancêtre de Noé.",
+    "link": "https://en.wikipedia.org/wiki/Enoch"
+  },
+  {
+    "id": 11,
+    "label": "Methuselah",
+    "description": "Methuselah est le fils d'Enoch et un descendant d'Adam. Il est célèbre pour avoir vécu 969 ans, la plus longue durée de vie enregistrée dans la Bible. Methuselah est le grand-père de Noé. Il est mort l'année du Déluge.",
+    "link": "https://en.wikipedia.org/wiki/Methuselah"
+  },
+  {
+    "id": 12,
+    "label": "Lamech",
+    "description": "Lamech est le fils de Methuselah et un descendant d'Adam. Il est le père de Noé. Lamech a vécu 777 ans selon la Bible. Il espérait que Noé apporterait du réconfort dans le travail pénible causé par la malédiction sur la terre.",
+    "link": "https://en.wikipedia.org/wiki/Lamech"
+  },
+  {
+    "id": 13,
+    "label": "Noah",
+    "description": "Noé est connu pour avoir construit une arche pour sauver sa famille et les animaux du Déluge. Il est le fils de Lamech. Noé a trouvé grâce aux yeux de Dieu. Après le Déluge, il a vécu 350 ans de plus.",
+    "link": "https://en.wikipedia.org/wiki/Noah"
+  },
+  {
+    "id": 14,
+    "label": "Shem",
+    "description": "Shem est l'un des trois fils de Noé. Il est considéré comme l'ancêtre des peuples sémites. Shem a vécu 600 ans. Il a survécu au Déluge avec sa famille.",
+    "link": "https://en.wikipedia.org/wiki/Shem"
+  },
+  {
+    "id": 15,
+    "label": "Ham",
+    "description": "Ham est l'un des trois fils de Noé. Il est considéré comme l'ancêtre des peuples africains. Ham a vu la nudité de son père et a été maudit par Noé. Il a survécu au Déluge avec sa famille.",
+    "link": "https://en.wikipedia.org/wiki/Ham_(son_of_Noah)"
+  },
+  {
+    "id": 16,
+    "label": "Japheth",
+    "description": "Japheth est l'un des trois fils de Noé. Il est considéré comme l'ancêtre des peuples européens et asiatiques. Japheth a couvert la nudité de son père avec Shem. Il a survécu au Déluge avec sa famille.",
+    "link": "https://en.wikipedia.org/wiki/Japheth"
+  },
+  {
+    "id": 17,
+    "label": "Terah",
+    "description": "Terah est le père d'Abraham, Nahor et Haran. Il a vécu à Ur en Chaldée. Terah a déménagé sa famille à Haran. Il est mort à l'âge de 205 ans.",
+    "link": "https://en.wikipedia.org/wiki/Terah"
+  },
+  {
+    "id": 18,
+    "label": "Abram (Abraham)",
+    "description": "Abraham est le patriarche des trois grandes religions monothéistes. Dieu lui a promis de faire de lui une grande nation. Il est le père d'Isaac et d'Ismaël. Abraham est connu pour sa foi inébranlable en Dieu.",
+    "link": "https://en.wikipedia.org/wiki/Abraham"
+  },
+  {
+    "id": 19,
+    "label": "Sarai (Sarah)",
+    "description": "Sarah est l'épouse d'Abraham et la mère d'Isaac. Elle est connue pour avoir ri lorsqu'elle a appris qu'elle aurait un enfant à un âge avancé. Sarah a vécu 127 ans. Elle est enterrée à Hébron.",
+    "link": "https://en.wikipedia.org/wiki/Sarah"
+  },
+  {
+    "id": 20,
+    "label": "Hagar",
+    "description": "Hagar est la servante de Sarah et la mère d'Ismaël. Elle a été donnée à Abraham par Sarah pour avoir un enfant. Hagar a fui dans le désert mais a été encouragée par un ange à retourner. Elle est considérée comme l'ancêtre des Arabes.",
+    "link": "https://en.wikipedia.org/wiki/Hagar"
+  },
+  {
+    "id": 21,
+    "label": "Ishmael",
+    "description": "Ismaël est le fils d'Abraham et Hagar. Il est considéré comme l'ancêtre des Arabes. Ismaël a été circoncis à l'âge de treize ans. Il a vécu 137 ans.",
+    "link": "https://en.wikipedia.org/wiki/Ishmael"
+  },
+  {
+    "id": 22,
+    "label": "Isaac",
+    "description": "Isaac est le fils d'Abraham et Sarah. Il est né lorsque ses parents étaient très âgés. Isaac a épousé Rébecca et a eu deux fils, Ésaü et Jacob. Il est connu pour l'histoire de la quasi-sacrifice par Abraham.",
+    "link": "https://en.wikipedia.org/wiki/Isaac"
+  },
+  {
+    "id": 23,
+    "label": "Rebekah",
+    "description": "Rébecca est l'épouse d'Isaac et la mère de Jacob et Ésaü. Elle a été choisie par le serviteur d'Abraham pour son fils Isaac. Rébecca a aidé Jacob à obtenir la bénédiction de son père. Elle est enterrée dans la grotte de Machpéla.",
+    "link": "https://en.wikipedia.org/wiki/Rebekah"
+  },
+  {
+    "id": 24,
+    "label": "Esau",
+    "description": "Ésaü est le fils d'Isaac et Rébecca, et le frère jumeau de Jacob. Il est connu pour avoir vendu son droit d'aînesse pour un plat de lentilles. Ésaü a été trompé par Jacob pour la bénédiction de leur père. Il est considéré comme l'ancêtre des Édomites.",
+    "link": "https://en.wikipedia.org/wiki/Esau"
+  },
+  {
+    "id": 25,
+    "label": "Jacob (Israel)",
+    "description": "Jacob est le fils d'Isaac et Rébecca, et le frère jumeau d'Ésaü. Il a trompé son frère pour obtenir la bénédiction de leur père. Jacob a eu douze fils qui sont devenus les ancêtres des douze tribus d'Israël. Il a été renommé Israël après avoir lutté avec un ange.",
+    "link": "https://en.wikipedia.org/wiki/Jacob"
+  },
+  {
+    "id": 26,
+    "label": "Leah",
+    "description": "Léa est la première épouse de Jacob et la mère de six de ses fils. Elle a été mariée à Jacob par la tromperie de son père Laban. Léa a lutté pour l'amour de Jacob, mais a été bénie avec plusieurs enfants. Elle est enterrée dans la grotte de Machpéla.",
+    "link": "https://en.wikipedia.org/wiki/Leah"
+  },
+  {
+    "id": 27,
+    "label": "Rachel",
+    "description": "Rachel est la deuxième épouse de Jacob et la mère de Joseph et Benjamin. Elle était la préférée de Jacob. Rachel a eu des difficultés à avoir des enfants, mais a finalement donné naissance à Joseph et Benjamin. Elle est morte en donnant naissance à Benjamin et est enterrée près de Bethléem.",
+    "link": "https://en.wikipedia.org/wiki/Rachel"
+  },
+  {
+    "id": 28,
+    "label": "Reuben",
+    "description": "Ruben est le premier fils de Jacob et Léa. Il a perdu son droit d'aînesse en raison d'un acte d'indiscrétion avec la concubine de son père. Ruben a essayé de sauver Joseph de ses frères jaloux. Il est l'ancêtre de la tribu de Ruben.",
+    "link": "https://en.wikipedia.org/wiki/Reuben_(son_of_Jacob)"
+  },
+  {
+    "id": 29,
+    "label": "Simeon",
+    "description": "Siméon est le deuxième fils de Jacob et Léa. Il a participé au massacre des habitants de Sichem en vengeance pour le viol de sa sœur Dinah. Siméon a été emprisonné en Égypte par Joseph lors de la première visite de ses frères. Il est l'ancêtre de la tribu de Siméon.",
+    "link": "https://en.wikipedia.org/wiki/Simeon_(son_of_Jacob)"
+  },
+  {
+    "id": 30,
+    "label": "Levi",
+    "description": "Lévi est le troisième fils de Jacob et Léa. Il a participé au massacre de Sichem avec son frère Siméon. Lévi est l'ancêtre de la tribu de Lévi, dont les membres sont les prêtres et les assistants du temple. Il a reçu une bénédiction spéciale de Jacob avant sa mort.",
+    "link": "https://en.wikipedia.org/wiki/Levi"
+  },
+  {
+    "id": 31,
+    "label": "Judah",
+    "description": "Juda est le quatrième fils de Jacob et Léa. Il a joué un rôle clé dans la vente de Joseph à des marchands. Juda est l'ancêtre de la tribu de Juda et de la lignée royale de David. Il a reçu une bénédiction spéciale de Jacob pour sa bravoure et sa sagesse.",
+    "link": "https://en.wikipedia.org/wiki/Judah_(son_of_Jacob)"
+  },
+  {
+    "id": 32,
+    "label": "Dan",
+    "description": "Dan est le fils de Jacob et Bilhah, la servante de Rachel. Il est l'ancêtre de la tribu de Dan. La tribu de Dan a été connue pour sa force et son courage. Dan est mentionné dans les bénédictions de Jacob comme un juge de son peuple.",
+    "link": "https://en.wikipedia.org/wiki/Dan_(son_of_Jacob)"
+  },
+  {
+    "id": 33,
+    "label": "Naphtali",
+    "description": "Naphtali est le fils de Jacob et Bilhah, la servante de Rachel. Il est l'ancêtre de la tribu de Naphtali. Naphtali est décrit comme un cerf en liberté dans les bénédictions de Jacob. La tribu de Naphtali a été connue pour sa bravoure au combat.",
+    "link": "https://en.wikipedia.org/wiki/Naphtali"
+  },
+  {
+    "id": 34,
+    "label": "Gad",
+    "description": "Gad est le fils de Jacob et Zilpa, la servante de Léa. Il est l'ancêtre de la tribu de Gad. Gad est décrit comme un guerrier courageux dans les bénédictions de Jacob. La tribu de Gad a joué un rôle important dans les batailles d'Israël.",
+    "link": "https://en.wikipedia.org/wiki/Gad_(son_of_Jacob)"
+  },
+  {
+    "id": 35,
+    "label": "Asher",
+    "description": "Asher est le fils de Jacob et Zilpa, la servante de Léa. Il est l'ancêtre de la tribu d'Asher. Asher est décrit comme prospère et béni dans les bénédictions de Jacob. La tribu d'Asher a été connue pour sa richesse et son abondance.",
+    "link": "https://en.wikipedia.org/wiki/Asher"
+  },
+  {
+    "id": 36,
+    "label": "Issachar",
+    "description": "Issachar est le fils de Jacob et Léa. Il est l'ancêtre de la tribu d'Issachar. Issachar est décrit comme un âne robuste dans les bénédictions de Jacob. La tribu d'Issachar a été connue pour sa sagesse et son discernement.",
+    "link": "https://en.wikipedia.org/wiki/Issachar"
+  },
+  {
+    "id": 37,
+    "label": "Zebulun",
+    "description": "Zabulon est le fils de Jacob et Léa. Il est l'ancêtre de la tribu de Zabulon. Zabulon est décrit comme un port maritime dans les bénédictions de Jacob. La tribu de Zabulon a été connue pour ses compétences en navigation et commerce.",
+    "link": "https://en.wikipedia.org/wiki/Zebulun"
+  },
+  {
+    "id": 38,
+    "label": "Joseph",
+    "description": "Joseph est le fils de Jacob et Rachel. Il est connu pour sa tunique multicolore et ses rêves prophétiques. Joseph a été vendu en esclavage par ses frères mais est devenu un dirigeant en Égypte. Il a sauvé sa famille de la famine en les amenant en Égypte.",
+    "link": "https://en.wikipedia.org/wiki/Joseph_(Genesis)"
+  },
+  {
+    "id": 39,
+    "label": "Benjamin",
+    "description": "Benjamin est le fils de Jacob et Rachel, et le frère de Joseph. Il est le plus jeune des douze fils de Jacob. Benjamin a été chéri par son père après la perte présumée de Joseph. La tribu de Benjamin a été connue pour ses guerriers valeureux.",
+    "link": "https://en.wikipedia.org/wiki/Benjamin"
+  },
+  {
+    "id": 40,
+    "label": "Dinah",
+    "description": "Dinah est la fille de Jacob et Léa. Elle est connue pour son enlèvement et son viol par Sichem, fils de Hamor. Les frères de Dinah, Siméon et Lévi, ont vengé son honneur en massacrant les habitants de Sichem. Dinah est la seule fille de Jacob mentionnée dans la Bible.",
+    "link": "https://en.wikipedia.org/wiki/Dinah"
+  }
+]

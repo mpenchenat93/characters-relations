@@ -1,0 +1,84 @@
+/* Hauteur > 750px ET Largeur > 1600px */
+.approot3 {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  grid-template-columns: 6fr 4fr;
+  grid-template-areas:
+    "header header"
+    "graph detail"
+    "footer footer";
+}
+
+.header {
+  grid-area: header;
+}
+
+.graph {
+  grid-area: graph;
+  padding: 20px 10px 20px 20px;
+}
+
+.detail {
+  grid-area: detail;
+  padding: 20px 20px 20px 10px;
+}
+
+.footer {
+  grid-area: footer;
+}
+
+.graph,
+.detail {
+  min-height: 425px;
+}
+
+.detail-content {
+  height: 100%;
+  overflow-y: auto;
+}
+
+/* Hauteur < 750px OU Largeur < 1600px */
+@media (max-height: 750px) or (max-width: 1599px) {
+  .approot3 {
+    margin: 0;
+    padding: 0;
+    height: fit-content;
+    display: grid;
+    grid-template-rows: auto auto 1fr auto;
+    grid-template-columns: auto;
+    grid-template-areas:
+      "header"
+      "graph"
+      "detail"
+      "footer";
+  }
+
+  .graph {
+    min-height: 500px;
+    width: calc(100% - 40px);
+    margin: 0 auto;
+    padding: 20px 0 10px 0;
+  }
+
+  .detail {
+    height: fit-content;
+    width: calc(100% - 40px);
+    margin: 0 auto;
+    padding: 10px 0 10px 0;
+  }
+
+  .detail-content {
+    max-width: 1000px;
+    margin: 0 auto;
+    height: 100%;
+    overflow-y: auto;
+  }
+
+  .graph2 {
+    max-width: 1000px;
+    margin: 0 auto
+  }
+}

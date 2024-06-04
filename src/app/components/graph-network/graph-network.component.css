@@ -1,0 +1,4 @@
+.graph3 {
+  min-height: 430px;
+  height: calc(100vh - (79px + 110px + 150px));
+}

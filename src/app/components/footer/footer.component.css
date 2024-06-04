@@ -1,0 +1,15 @@
+.footer {
+  text-align: center;
+  padding: 40px;
+  grid-row: 2;
+}
+
+.chart-link {
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.chart-link:hover {
+  text-decoration: underline;
+}

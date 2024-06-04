@@ -1,0 +1,33 @@
+.approot3 {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  grid-template-columns: auto;
+  grid-template-areas:
+    "header"
+    "main"
+    "footer";
+}
+
+.header {
+  grid-area: header;
+}
+
+.main {
+  grid-area: main;
+  width: 100vw;
+}
+
+.footer {
+  grid-area: footer;
+}
+
+li {
+  padding-bottom: 5px;
+}
+
+.w100 {
+  width: 100%;
+}

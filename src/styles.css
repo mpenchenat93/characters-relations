@@ -1,0 +1,33 @@
+.p-button:focus,
+.p-button:focus-visible,
+.p-button .p-button-label:focus,
+.p-button .p-button-label:focus-visible {
+  outline: none;
+  box-shadow: none;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: rgb(234, 234, 234)
+}
+
+.p-element.custom-card .p-card {
+  box-shadow: none;
+}
+
+.p-element.custom-card .p-card-body {
+  margin: 0;
+  padding: 0;
+  box-shadow: none;
+}
+
+.p-element.custom-card .p-card-content {
+  padding: 0;
+}
+
+.no-scroll {
+  overflow: hidden !important;
+}

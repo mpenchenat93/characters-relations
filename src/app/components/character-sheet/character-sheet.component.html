@@ -1,0 +1,70 @@
+<div style="float: right; padding: 15px">
+  <div style="display: flex; flex-direction: column; align-items: end">
+    <p-button
+      *ngIf="character.link"
+      label="Article wiki"
+      (click)="openWikiArticle(character.link)"
+      icon="pi pi-external-link"
+      iconPos="right"
+      size="small"
+      text
+    />
+  </div>
+</div>
+
+<!-- NOM -->
+<h3>{{ character.label }}</h3>
+
+<div style="padding-bottom: 5px"></div>
+
+<!-- SURNOMS -->
+<div *ngIf="character.surnames.length">
+  <p>Surnom(s) : {{ split(character.surnames) }}</p>
+</div>
+
+<!-- ATTRIBUTS -->
+<div *ngIf="character.attributes.length">
+  <p>Attibut(s) : {{ split(character.attributes) }}</p>
+</div>
+
+<!-- GENRE -->
+<div *ngIf="character.gender">
+  <p>Genre : {{ character.gender }}</p>
+</div>
+
+<!-- LIEUX -->
+<div *ngIf="character.place.length">
+  <p>Lieu(x) : {{ split(character.place) }}</p>
+</div>
+
+<!-- CHAPIRE PRESENT OU REFERENCÉ -->
+<p
+  *ngIf="character.chapterPresent.length || character.chapterRef.length"
+  style="line-height: 1.4"
+>
+  <span *ngIf="character.chapterPresent.length">
+    Présent<span *ngIf="character.gender === 'Femme'">e</span> dans EMV
+    {{ character.strChapterPresent }}.<br />
+  </span>
+  <span *ngIf="character.chapterRef.length">
+    Nommé<span *ngIf="character.gender === 'Femme'">e</span> dans EMV
+    {{ character.strChapterRef }}.
+  </span>
+</p>
+
+<!-- SEULEMENT CITE -->
+<p *ngIf="character.isNotPresent">Seulement cité.</p>
+
+<!-- DESCRIPTION -->
+<div *ngIf="character.description">
+  <p>Description :</p>
+  <markdown [data]="character.description"></markdown>
+</div>
+
+<!-- RELATIONS -->
+<div *ngIf="character.relations.length">
+  <p>Liste des liens :</p>
+  <table class="mlDesktop" style="margin-bottom: 20px">
+    <tr *ngFor="let rel of character.relations" [innerHtml]="rel"></tr>
+  </table>
+</div>
